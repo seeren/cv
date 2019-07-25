@@ -1,3 +1,3 @@
 # Adobe resume template
 
-![Cv](https://raw.githubusercontent.com/seeren/cv/master/ressources/cv.jpg)
+![Cv](ressources/cyril-ichti-fr.jpg)
