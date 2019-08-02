@@ -1,3 +1,3 @@
 # Adobe resume template
 
-![Cv](ressources/cyril-ichti-fr.jpg)
+![Cv](ressources/cyril-ichti-en.jpg)
