@@ -7,5 +7,5 @@ import { PrintComponent } from './app/print/print.component';
     ? window.document.addEventListener('deviceready', main)
     : window.addEventListener('load', main))
 )(() => RouterComponent
-    .add('/', 'print', PrintComponent)
+    .add('/cv/www/', 'print', PrintComponent)
     .run(new AppComponent()));
