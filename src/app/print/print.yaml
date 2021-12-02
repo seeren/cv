@@ -27,14 +27,14 @@ link-list:
 experience-list:
   - {
       from: 2011,
-      to: 2021,
+      to: 2022,
       compagny: Seeren,
       post: Développeur Web et Mobile,
       description: "Fondateur de Seeren (SAS), Développement d'applications web et mobile, web pénétration testeur, profilage, audit de performance et vente de produits numériques.",
     }
   - {
       from: 2017,
-      to: 2021,
+      to: 2022,
       compagny: M2I,
       post: Formateur de Cursus Diplômants,
       description: "Animation des modules et évaluation des candidats pour les cursus Concepteur Développeur d'Applications et Développeur Web et Web Mobile - Master 1 et 2.",
