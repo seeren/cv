@@ -1,0 +1,15 @@
+<h2>éducation</h2>
+
+<ul>
+    ${ yaml.map(education => `
+    <li>
+        <h3>
+            <span class="date">${ education.from }-${ education.to }</span>
+            ${ education.school }
+        </h3>
+        <p>
+            ${ education.description }
+        </p>
+    </li>
+    `).join('')}
+</ul>

@@ -1,0 +1,24 @@
+<h2>certifications</h2>
+
+<ul>
+    ${ [
+    { name: 'psm1', label: 'Scrum Master Professionnal' },
+    { name: 'zcpe', label: 'Zend Certified PHP Engineer' },
+    ].map( certification => yaml[certification.name] && `
+    <li>
+        <h3>
+            <span class="date">${ yaml[certification.name].date }</span>
+            ${ certification.label } -
+            <span class="font-light">${ certification.name.toUpperCase() }</span>
+        </h3>
+        <p class="primary-light">
+            <img src="/assets/${ certification.name }.svg" class="w-1 inline-block fix v-middle" />
+            <a class="inline-block fix v-middle ellipsis w-10 ml-4"
+                title="Vérifier la certification ${ certification.label }" target="_blank"
+                href="${ yaml[certification.name].link }">
+                ${ yaml[certification.name].link }
+            </a>
+        </p>
+    </li>
+    `).join('') }
+</ul>

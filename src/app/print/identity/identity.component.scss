@@ -1,0 +1,9 @@
+app-identity { 
+    .identity {
+        background-image: url('/src/app/print/identity/identity.png');
+    }
+    img {
+        border-radius: 50%;
+        border: $border solid $accent;
+    }
+}

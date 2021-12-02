@@ -1,0 +1,19 @@
+<h2>compétences</h2>
+
+<ul>
+    ${ yaml.map( skill => `
+    <li>
+        <h3 class="pb-1 letter-space">
+            ${ skill.name }
+        </h3>
+        <progress class="w-12 mb-2" min="0" max="100" value="${ skill.average }"></progress>
+        <ul class="pb-0">
+            ${ skill.stack.map( item => `
+            <li class="p-1 mr-1 center">
+                ${ item }
+            </li>
+            `).join('') }
+        </ul>
+    </li>
+    `).join('') }
+</ul>

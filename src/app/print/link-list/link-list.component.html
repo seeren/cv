@@ -1,0 +1,23 @@
+<h2>Exemples</h2>
+
+<ul>
+    ${ [
+    { name: 'github', label: 'GitHub' },
+    { name: 'android', label: 'Google Play' },
+    { name: 'ios', label: 'App Store' },
+    ].map(link => yaml[link.name] && `
+    <li class="mb-6">
+        <img src="/assets/${ link.name }.svg" class="inline-block fix w-1 v-middle">
+        <div class="inline-block fix ml-4 w-10 v-middle ">
+            <h3 class="font-blod">
+                ${ link.label }
+            </h3>
+            <p class="primary-light ellipsis m-0">
+                <a target="_blank" href="${ yaml[link.name] }" title="Visiter ${ link.label }">
+                    ${ yaml[link.name] }
+                </a>
+            </p>
+        </div>
+    </li>
+    `).join('') }
+</ul>

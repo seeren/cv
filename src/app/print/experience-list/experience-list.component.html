@@ -1,0 +1,16 @@
+<h2>expérience</h2>
+
+<ul>
+    ${ yaml.map(experience => `
+    <li>
+        <h3>
+            <span class="date">${ experience.from }-${ experience.to }</span>
+            ${ experience.post } -
+            <span class="font-light">${ experience.compagny.toUpperCase() }</span>
+        </h3>
+        <p>
+            ${ experience.description }
+        </p>
+    </li>
+    `).join('')}
+</ul>

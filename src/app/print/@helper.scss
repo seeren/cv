@@ -1,0 +1,31 @@
+.accent {
+    color: $accent;
+}
+.primary {
+    color: $primary;
+}
+.primary-light {
+    color: $primary-light;
+}
+.smaller {
+    font-size: $smaller;
+}
+.bigger {
+    font-size: $bigger;
+}
+.caps {
+    font-variant: small-caps;
+}
+.border-right {
+    border-right: $border solid $accent;
+}
+.border-bottom {
+    border-bottom: $border solid $accent;
+}
+.letter-space {
+    letter-spacing: 0.1em;
+}
+.date {
+    @extend .accent, .font-thin;
+    letter-spacing: 0;
+}

@@ -1,0 +1,82 @@
+identity:
+  firstname: cyril
+  lastname: ichti
+  post: Développeur Web et Mobile Confirmé
+  phone: 06 86 66 55 14
+  mail: cyril@seeren.fr
+  website: www.seeren.fr
+  linkedin: ttps://fr.linkedin.com/in/cyril-ichti
+  city: Annecy
+
+profile:
+  - Développeur Web et Mobile depuis une dizaine d’années, je partage avec envie l'expérience accumulée et continue de progresser.
+  - Je m'appuie sur un recul conceptuel pour tacler la dette technique et sur une adaptabilité pour développer ma cross fonctionnalité.
+
+skill-list:
+  - { name: JavaScript, average: 85, stack: [Angular, WebGL, Native, Node] }
+  - { name: PHP, average: 90, stack: [Symfony, Laravel, Native, PSR] }
+  - { name: Scrum, average: 80, stack: [CI, CD, Coverage] }
+  - { name: UML, average: 80, stack: [GRASP, SOLID, Design-First] }
+  - { name: UX, average: 65, stack: [Drawing, Modeling, Adobe] }
+
+link-list:
+  github: https://github.com/seeren
+  android: https://play.google.com/store/apps/developer?id=Seeren
+  ios: https://apps.apple.com/us/developer/cyril-ichti/id1594232410
+
+experience-list:
+  - {
+      from: 2011,
+      to: 2021,
+      compagny: Seeren,
+      post: Développeur Web et Mobile,
+      description: "Fondateur de Seeren (SAS), Développement d'applications web et mobile, web pénétration testeur, profilage, audit de performance et vente de produits numériques.",
+    }
+  - {
+      from: 2017,
+      to: 2021,
+      compagny: M2I,
+      post: Formateur de Cursus Diplômants,
+      description: "Animation des modules et évaluation des candidats pour les cursus Concepteur Développeur d'Applications et Développeur Web et Web Mobile - Master 1 et 2.",
+    }
+  - {
+      from: 2010,
+      to: 2011,
+      compagny: LGCI,
+      post: Intégrateur et Développeur Web,
+
+      description: "Réalisation de web designs et Intégration sur CMS. Développement avec PHP de templates et de sites web spécifiques, mise en ligne et web mastering.",
+        # description: "zedezd zedzedzed zedezdzedez Développement de sites web, création et intégration de templates sur CMS et animation de formations web",,
+    }
+  - {
+      from: 2007,
+      to: 2010,
+      compagny: Freelance,
+      post: Intégrateur et Web Designer,
+      description: "Réalisation de web designs avec les produits Adobe et intégration. Développement avec PHP de parties spécifiques.",
+    }
+
+certification-list:
+  psm1: { date: 2018, link: https://www.scrum.org/user/421856 }
+  zcpe:
+    { date: 2016, link: https://www.zend-zce.com/en/yellow-pages/ZEND028549 }
+
+education-list:
+  - {
+      from: 2008,
+      to: 2011,
+      school: ENSA Marseille,
+      description: "École Nationale Supérieure d'Architecture de Marseille.",
+    }
+  - {
+      from: 2006,
+      to: 2008,
+      school: ESMA Montpellier,
+      description: "École Supérieure des Métiers Artistiques de Montpellier.",
+    }
+  - {
+      from: 2005,
+      to: 2006,
+      school: Université Paul Valery Montpellier,
+      description: "Sciences humaines et sociales, les langues et les arts.",
+    }
