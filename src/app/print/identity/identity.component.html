@@ -7,7 +7,7 @@
     <p class="primary">${ yaml.post }</p>
     <ul>
         <li>
-            <a target="_blank" href="tel:${ yaml.phone }" title="Lancer un appel">
+            <a target="_blank" href="tel:${ yaml.phone.replace(/\s/g, '')  }" title="Lancer un appel">
                 ${ yaml.phone }
             </a>
         </li>
