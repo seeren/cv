@@ -22,12 +22,12 @@ h2 {
 h3 {
     @extend .m-0, .pb-2, .font-normal, .font-1;
     & + p {
-        @extend .mb-6;
+        @extend .mb-4;
     }
 }
 
 p {
-    @extend .font-light, .p-0, .m-0, .mb-4, .justify, .smaller, .primary-light;
+    @extend .font-light, .p-0, .m-0, .mb-3, .justify, .smaller, .primary-light;
     line-height: 1.1rem;
 }
 
@@ -37,7 +37,7 @@ ul {
         list-style-type: none;
     }
     & ul {
-        @extend .flex, .mb-4, .font-light, .smaller, .letter-space;
+        @extend .flex, .mb-3, .font-light, .smaller, .letter-space;
         li {
             @extend .grow, .primary-light;
         }
