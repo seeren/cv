@@ -1,7 +1,7 @@
 identity:
   firstname: cyril
   lastname: ichti
-  post: Développeur Web et Mobile Confirmé
+  post: Développeur PHP / JavaScript Confirmé
   phone: 06 86 66 55 14
   mail: cyril@seeren.fr
   website: http://www.seeren.fr
@@ -16,8 +16,8 @@ skill-list:
   - { name: JavaScript, average: 85, stack: [Angular, WebGL, Native, Node] }
   - { name: PHP, average: 90, stack: [Symfony, Laravel, Native, PSR] }
   - { name: Scrum, average: 80, stack: [CI, CD, Coverage] }
-  - { name: UML, average: 80, stack: [GRASP, SOLID, Design-First] }
-  - { name: UX, average: 65, stack: [Drawing, Modeling, Adobe] }
+  - { name: UML, average: 80, stack: [Design-First, GRASP, SOLID] }
+  - { name: UX, average: 65, stack: [Adobe, Drawing, Modeling] }
 
 link-list:
   github: https://github.com/seeren
