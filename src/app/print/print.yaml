@@ -1,7 +1,7 @@
 identity:
   firstname: cyril
   lastname: ichti
-  post: Développeur PHP / JavaScript Confirmé
+  post: Développeur JavaScript / PHP Confirmé
   phone: 06 86 66 55 14
   mail: cyril@seeren.fr
   website: http://www.seeren.fr
@@ -9,15 +9,15 @@ identity:
   city: Annecy
 
 profile:
-  - Développeur Web et Mobile depuis une dizaine d’années, je partage avec envie l'expérience accumulée et continue de progresser.
-  - Je m'appuie sur un recul conceptuel pour tacler la dette technique et sur une adaptabilité pour développer ma cross fonctionnalité.
+  - Partage avec envie l'expérience accumulée et continue de progresser au contact des partenaires.
+  - Spécialisé en PHP j'applique le champ des possibles en JavaScript, le cross-plateforme et les sensors ou le WebGL, avec les contraintes de compétences complémentaires requises.
 
 skill-list:
-  - { name: JavaScript, average: 85, stack: [Angular, WebGL, Native, Node] }
-  - { name: PHP, average: 90, stack: [Symfony, Laravel, Native, PSR] }
-  - { name: Scrum, average: 80, stack: [CI, CD, Coverage] }
-  - { name: UML, average: 80, stack: [Design-First, GRASP, SOLID] }
-  - { name: UX, average: 65, stack: [Adobe, Drawing, Modeling] }
+  - { name: JavaScript, average: 85, stack: [Angular, Ionic, NodeJS, WebGL] }
+  - { name: PHP, average: 90, stack: [Symfony, Laravel, Wordpress] }
+  - { name: Storage, average: 80, stack: [Firebase, Mariadb, Mongodb] }
+  - { name: Agile, average: 80, stack: [Scrum Master, RAD, TDD] }
+  - { name: UML, average: 75, stack: [Design-First, GRASP, SOLID] }
 
 link-list:
   github: https://github.com/seeren
