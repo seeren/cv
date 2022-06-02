@@ -2,9 +2,9 @@
 @import "./@helper.scss";
 
 h1 {
-    @extend .m-0, .p-0, .font-3-25, .font-semi-bold, .accent, .letter-space, .caps;
+    @extend .m-0, .p-0, .font-2-5, .font-semi-bold, .accent, .letter-space, .caps;
     & + p {
-        @extend .m-0, .p-0, .font-medium, .bigger, .letter-space;
+        @extend .m-0, .p-0, .font-1-25, .font-medium, .letter-space;
     }
     & ~ ul {
         @extend .flex, .pt-3, .font-light, .font-0-75, .letter-space;

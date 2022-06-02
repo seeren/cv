@@ -1,7 +1,7 @@
 identity:
   firstname: cyril
   lastname: ichti
-  post: Développeur JavaScript / PHP Confirmé
+  post: Développeur Web Confirmé
   phone: 06 86 66 55 14
   mail: cyril@seeren.fr
   website: http://www.seeren.fr
@@ -9,15 +9,15 @@ identity:
   city: Annecy
 
 profile:
-  - Partage avec envie l'expérience accumulée et continue de progresser au contact des partenaires.
-  - Spécialisé en PHP j'applique le champ des possibles en JavaScript, le cross-plateforme et les sensors ou le WebGL, avec les contraintes de compétences complémentaires requises.
+  - Je dirige mon activité depuis 10 ans dans le web et continue de progresser au contact des partenaires.
+  - Spécialisé en PHP j'applique le champ des possibles en JavaScript comme le cross-plateforme ou le WebGL, avec les contraintes de compétences complémentaires requises.
 
 skill-list:
   - { name: JavaScript, average: 85, stack: [Angular, Ionic, NodeJS, WebGL] }
   - { name: PHP, average: 90, stack: [Symfony, Laravel, Wordpress] }
-  - { name: Storage, average: 80, stack: [Firebase, Mariadb, Mongodb] }
-  - { name: Agile, average: 80, stack: [Scrum Master, RAD, TDD] }
-  - { name: UML, average: 75, stack: [Design-First, GRASP, SOLID] }
+  - { name: Database, average: 80, stack: [MariaDB, MongoDB, API, Firebase] }
+  - { name: Agile, average: 80, stack: [Scrum Master, CI, CD] }
+  - { name: Adobe, average: 75, stack: [Photoshop, Premiere, XD] }
 
 link-list:
   github: https://github.com/seeren
@@ -33,10 +33,10 @@ experience-list:
       description: "Fondateur de Seeren (SAS), Développement d'applications web et mobile, web pénétration testeur, profilage, audit de performance et vente de produits numériques.",
     }
   - {
-      from: 2017,
-      to: 2022,
+      from: 2018,
+      to: 2021,
       compagny: M2I,
-      post: Formateur de Cursus Diplômants,
+      post: Formateur Référent,
       description: "Animation des modules et évaluation des candidats pour les cursus Concepteur Développeur d'Applications et Développeur Web et Web Mobile - Master 1 et 2.",
     }
   - {
@@ -44,9 +44,7 @@ experience-list:
       to: 2011,
       compagny: LGCI,
       post: Intégrateur et Développeur Web,
-
       description: "Réalisation de web designs et Intégration sur CMS. Développement avec PHP de templates et de sites web spécifiques, mise en ligne et web mastering.",
-        # description: "zedezd zedzedzed zedezdzedez Développement de sites web, création et intégration de templates sur CMS et animation de formations web",,
     }
   - {
       from: 2007,
