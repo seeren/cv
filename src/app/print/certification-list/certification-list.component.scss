@@ -1,8 +1,10 @@
-app-certification-list { 
+app-certification-list {
+    margin-top: -1em;
+    margin-bottom: 1em;
     .psm1 {
-        background-image: url('/src/app/print/certification-list/images/psm1.svg');
+        background-image: url("/src/app/print/certification-list/images/psm1.svg");
     }
     .zcpe {
-        background-image: url('/src/app/print/certification-list/images/zcpe.svg');
+        background-image: url("/src/app/print/certification-list/images/zcpe.svg");
     }
 }

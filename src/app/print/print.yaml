@@ -9,15 +9,14 @@ identity:
   city: Annecy
 
 profile:
-  - Je dirige mon activité depuis 10 ans dans le web et continue de progresser au contact des partenaires.
-  - Spécialisé en PHP j'applique le champ des possibles en JavaScript comme le cross-plateforme ou le WebGL, avec les contraintes de compétences complémentaires requises.
+  - Je code depuis plus de 10 ans dans le web et continue de progresser au contact des partenaires en changeant de techno quand besoin et en gardant précieusement les principes SOLID.
+  - Spécialisé dans un premier temps en PHP j'applique le champ des possibles en JavaScript comme le cross plateforme ou le WebGL, avec les contraintes de compétences complémentaires requises.
 
 skill-list:
-  - { name: JavaScript, average: 85, stack: [Angular, Ionic, NodeJS, WebGL] }
-  - { name: PHP, average: 90, stack: [Symfony, Laravel, Wordpress] }
-  - { name: Database, average: 80, stack: [MariaDB, MongoDB, API, Firebase] }
-  - { name: Agile, average: 80, stack: [Scrum Master, CI, CD] }
-  - { name: Adobe, average: 75, stack: [Photoshop, Premiere, XD] }
+  - { name: Front-end, average: 85, stack: [Angular, VueJS, Ionic, WebGL] }
+  - { name: Back-end, average: 90, stack: [NestJS, Symfony, Laravel, Express] }
+  - { name: Storage, average: 80, stack: [SQL, NoSQL, REST, Firebase] }
+  - { name: Pipeline, average: 80, stack: [Git, Docker, CI, CD] }
 
 link-list:
   github: https://github.com/seeren
@@ -25,6 +24,13 @@ link-list:
   ios: https://apps.apple.com/us/developer/cyril-ichti/id1594232410
 
 experience-list:
+  - {
+      from: 2022,
+      to: 2022,
+      compagny: Miliboo,
+      post: Développeur Full-Stack,
+      description: "Développeur confirmé de la team Web Expert Business de refonte du site marchand Miliboo. Développement de features, web services, integrations et code reviews.",
+    }
   - {
       from: 2011,
       to: 2022,
@@ -36,22 +42,15 @@ experience-list:
       from: 2018,
       to: 2021,
       compagny: M2I,
-      post: Formateur Référent,
-      description: "Animation des modules et évaluation des candidats pour les cursus Concepteur Développeur d'Applications et Développeur Web et Web Mobile - Master 1 et 2.",
+      post: Consultant / Formateur Référent,
+      description: "Consultant web sur site dans de nombreux contexts. Formateur pour les cursus CDA et DWWM - Master 1, 2.",
     }
   - {
       from: 2010,
       to: 2011,
       compagny: LGCI,
       post: Intégrateur et Développeur Web,
-      description: "Réalisation de web designs et Intégration sur CMS. Développement avec PHP de templates et de sites web spécifiques, mise en ligne et web mastering.",
-    }
-  - {
-      from: 2007,
-      to: 2010,
-      compagny: Freelance,
-      post: Intégrateur et Web Designer,
-      description: "Réalisation de web designs avec les produits Adobe et intégration. Développement avec PHP de parties spécifiques.",
+      description: "Développement en PHP de templates et de sites web spécifiques, création de web designs et Intégration.",
     }
 
 certification-list:
