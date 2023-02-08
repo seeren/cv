@@ -9,14 +9,14 @@ identity:
   city: Annecy
 
 profile:
-  - Je code depuis plus de 10 ans dans le web et continue de progresser au contact des partenaires en changeant de techno quand besoin et en gardant précieusement les principes SOLID.
-  - Spécialisé dans un premier temps en PHP j'applique le champ des possibles en JavaScript comme le cross plateforme ou le WebGL, avec les contraintes de compétences complémentaires requises.
+  - Je code avec envie et continue de progresser au contact des partenaires en changeant de techno quand besoin et en gardant précieusement les valeurs Agiles et les principes SOLID.
+  - Focus dans un premier temps sur PHP j'applique le champ des possibles en JavaScript, TypeScript allant du Micro Service, Web Service, jusqu'au SPA, Cross plateforme ou WebGL, avec le besoin de compétences complémentaires requises.
 
 skill-list:
-  - { name: Front-end, average: 85, stack: [Angular, VueJS, Ionic, WebGL] }
-  - { name: Back-end, average: 90, stack: [NestJS, Symfony, Laravel, Express] }
-  - { name: Storage, average: 80, stack: [SQL, NoSQL, REST, Firebase] }
-  - { name: Pipeline, average: 80, stack: [Git, Docker, CI, CD] }
+  - { name: Front-end, average: 85, stack: [Angular, Ionic, React, Vue, WebGL] }
+  - { name: Back-end, average: 90, stack: [Laravel, Nest, Node, Symfony] }
+  - { name: Storage, average: 80, stack: [API, Broker, MicroService, SQL] }
+  - { name: Pipeline, average: 80, stack: [CI/CL/CD, Coverage, Docker, Git] }
 
 link-list:
   github: https://github.com/seeren
@@ -25,8 +25,15 @@ link-list:
 
 experience-list:
   - {
+      from: 2023,
+      to: 2023,
+      compagny: Miliboo,
+      post: Lead Développeur,
+      description: "Développeur responsable du Micro Service, Web Service et Single Page Application du service Après Vente.",
+    }
+  - {
       from: 2022,
-      to: 2022,
+      to: 2023,
       compagny: Miliboo,
       post: Développeur Full-Stack,
       description: "Développeur confirmé de la team Web Expert Business de refonte du site marchand Miliboo. Développement de features, web services, integrations et code reviews.",
@@ -35,21 +42,14 @@ experience-list:
       from: 2011,
       to: 2022,
       compagny: Seeren,
-      post: Développeur Web et Mobile,
-      description: "Fondateur de Seeren (SAS), Développement d'applications web et mobile, web pénétration testeur, profilage, audit de performance et vente de produits numériques.",
-    }
-  - {
-      from: 2018,
-      to: 2021,
-      compagny: M2I,
-      post: Consultant / Formateur Référent,
-      description: "Consultant web sur site dans de nombreux contexts. Formateur pour les cursus CDA et DWWM - Master 1, 2.",
+      post: Développeur Web,
+      description: "Fondateur de Seeren SAS. Développement d'applications web et hybride, pénétration testeur, audit de performance et vente de produits numériques. Consultant web sur site dans de nombreux contexts et formateur référent",
     }
   - {
       from: 2010,
       to: 2011,
       compagny: LGCI,
-      post: Intégrateur et Développeur Web,
+      post: Intégrateur Web,
       description: "Développement en PHP de templates et de sites web spécifiques, création de web designs et Intégration.",
     }
 
