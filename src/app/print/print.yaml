@@ -10,7 +10,7 @@ identity:
 
 profile:
   - Je code avec envie et continue de progresser au contact des partenaires en changeant de techno quand besoin et en gardant précieusement les valeurs Agiles et les principes SOLID.
-  - Focus dans un premier temps sur PHP j'applique le champ des possibles en JavaScript, TypeScript allant du Micro Service, Web Service, jusqu'au SPA, Cross plateforme ou WebGL, avec le besoin de compétences complémentaires requises.
+  - Focus dans un premier temps sur PHP j'applique le champ des possibles en JavaScript, TypeScript allant du Micro Service, Web Service, jusqu'au SPA, Cross plateforme ou WebGL, avec l'acquisition des compétences complémentaires requises.
 
 skill-list:
   - { name: Front-end, average: 85, stack: [Angular, Ionic, React, Vue, WebGL] }
@@ -43,7 +43,7 @@ experience-list:
       to: 2022,
       compagny: Seeren,
       post: Développeur Web,
-      description: "Fondateur de Seeren SAS. Développement d'applications web et hybride, pénétration testeur, audit de performance et vente de produits numériques. Consultant web sur site dans de nombreux contexts et formateur référent",
+      description: "Fondateur de Seeren SAS. Développement d'applications web et hybride, pénétration testeur, audit de performance et vente de produits numériques. Consultant web sur site dans de nombreux contexts et formateur référent.",
     }
   - {
       from: 2010,
