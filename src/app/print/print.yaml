@@ -15,7 +15,7 @@ profile:
 skill-list: 
   - { name: Micro Service, average: 90, stack: [Kafka, NestJS, Laravel] }
   - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
-  - { name: Single Page Application, average: 90, stack: [React, Angular, ThreeJS] }
+  - { name: Single Page Application, average: 90, stack: [React, Angular, VueJS] }
   - { name: Environnement, average: 85, stack: [Docker, GitLab, CI/CD] }
 
 link-list:
