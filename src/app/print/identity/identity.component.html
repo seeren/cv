@@ -1,33 +1,28 @@
-<div class="inline-block fix w-10 v-top">
+<div class="inline-block fix w-9 v-top">
     <h1>
         <a class="accent" target="_blank" href="${ yaml.linkedin }" title="Ouvrir sur Linkedin">
             ${ yaml.firstname } ${ yaml.lastname }
         </a>
     </h1>
-    <p class="primary">${ yaml.post }</p>
+    <p class="accent">${ yaml.post }</p>
     <ul>
         <li>
             <a target="_blank" href="tel:${ yaml.phone.replace(/\s/g, '')  }" title="Lancer un appel">
-                ${ yaml.phone }
+                ☎︎ ${ yaml.phone }
             </a>
         </li>
         <li>
             <a target="_blank" href="mailto:${ yaml.mail }" title="Ecrire un mail">
-                ${ yaml.mail }
-            </a>
-        </li>
-        <li>
-            <a target="_blank" href="${ yaml.website }" title="Visiter le site web">
-                ${ yaml.website.replace('http://', '') }
+                ✎ ${ yaml.mail }
             </a>
         </li>
         <li>
             <a target="_blank" href="https://www.google.com/maps/place/Annecy" title="Voir sur GoogleMap">
-                ${ yaml.city }
+               ⚑ ${ yaml.city }
             </a>
         </li>
     </ul>
 </div>
-<div class="inline-block fix w-2 v-top center">
-    <img src="assets/identity.jpg" class="w-9 inline-block fix" />
+<div class="inline-block fix w-3 v-top center">
+    <img src="assets/identity.jpg" class="w-7 inline-block fix" />
 </div>

@@ -1,27 +1,28 @@
 identity:
   firstname: cyril
   lastname: ichti
-  post: Développeur Web Confirmé
+  post: Développeur Web
   phone: 06 58 66 55 14
-  mail: cyril@seeren.fr
-  website: http://www.seeren.fr
+  mail: cyril.ichti@gmail.com
   linkedin: https://fr.linkedin.com/in/cyril-ichti
   city: Annecy
 
 profile:
-  - Je code avec envie et continue de progresser au contact des partenaires en changeant de techno quand besoin et en gardant précieusement les valeurs Agiles et les principes SOLID.
-  - Focus dans un premier temps sur PHP j'applique le champ des possibles en JavaScript, TypeScript allant du Micro Service, Web Service, jusqu'au SPA, Cross plateforme ou WebGL, avec l'acquisition des compétences complémentaires requises.
+  - Audacieux, motivation-driven professionnel avec +10 ans d'expérience en développement web.
+  - Equipé de succes dans l'identification puis l'implémentation de solutions techniques inovantes correspondant aux besoins.
+  - Compétent pour développer des micro services et web services, des interfaces utilisateurs accessibles et pour accepter le changement.
 
-skill-list:
-  - { name: Front-end, average: 85, stack: [Angular, Ionic, React, Vue, WebGL] }
-  - { name: Back-end, average: 90, stack: [Laravel, Nest, Node, Symfony] }
-  - { name: Storage, average: 80, stack: [API, Broker, MicroService, SQL] }
-  - { name: Pipeline, average: 80, stack: [CI/CL/CD, Coverage, Docker, Git] }
+skill-list: 
+  - { name: Micro Service, average: 90, stack: [Kafka, NestJS, Laravel] }
+  - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
+  - { name: Single Page Application, average: 90, stack: [React, Angular, ThreeJS] }
+  - { name: Environnement, average: 85, stack: [Docker, GitLab, CI/CD] }
 
 link-list:
   github: https://github.com/seeren
   android: https://play.google.com/store/apps/developer?id=Seeren
   ios: https://apps.apple.com/us/developer/cyril-ichti/id1594232410
+  linkedin: https://www.linkedin.com/in/cyril-ichti/
 
 experience-list:
   - {
@@ -29,13 +30,13 @@ experience-list:
       to: 2023,
       compagny: Miliboo,
       post: Lead Développeur,
-      description: "Développeur responsable du Micro Service, Web Service et Single Page Application du service Après Vente.",
+      description: "Développeur responsable du Micro Service, Web Service et Single Page Application du SAV des sites Miliboo. Développement de packages utilisé par toutes les teams.",
     }
   - {
       from: 2022,
       to: 2023,
       compagny: Miliboo,
-      post: Développeur Full-Stack,
+      post: Développeur Web,
       description: "Développeur confirmé de la team Web Expert Business de refonte du site marchand Miliboo. Développement de features, web services, integrations et code reviews.",
     }
   - {
@@ -43,7 +44,7 @@ experience-list:
       to: 2022,
       compagny: Seeren,
       post: Développeur Web,
-      description: "Fondateur de Seeren SAS. Développement d'applications web et hybride, pénétration testeur, audit de performance et vente de produits numériques. Consultant web sur site dans de nombreux contexts et formateur référent.",
+      description: "Entrepreneur. Développement d'applications web et hybride, vente de produits numériques. Consultant web dans de nombreux contexts et formateur référent en M1.",
     }
   - {
       from: 2010,
