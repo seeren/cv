@@ -2,20 +2,20 @@ identity:
   firstname: cyril
   lastname: ichti
   post: Développeur Web
-  phone: 06 58 66 55 14
-  mail: cyril.ichti@gmail.com
+  phone: 📱 06 58 66 55 14
+  mail: 📧 cyril.ichti@gmail.com
   linkedin: https://fr.linkedin.com/in/cyril-ichti
-  city: Annecy
+  city: 🦆 Annecy
 
 profile:
-  - Audacieux, motivation-driven professionnel avec +10 ans d'expérience en développement web.
-  - Equipé de succes dans l'identification puis l'implémentation de solutions techniques inovantes correspondant aux besoins.
-  - Compétent pour développer des micro services et web services, des interfaces utilisateurs accessibles et pour accepter le changement.
+  - Audacieux, motivation driven professionnel avec +10 ans d'expérience en développement web.
+  - Équipé de succès dans l'identification puis l'implémentation de solutions techniques innovantes correspondant aux besoins.
+  - Compétent pour développer des micro-services et web services, des interfaces utilisateur accessible et pour accepter le changement.
 
 skill-list: 
   - { name: Micro Service, average: 90, stack: [Kafka, NestJS, Laravel] }
   - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
-  - { name: Single Page Application, average: 90, stack: [React, Angular, VueJS] }
+  - { name: Single Page Application, average: 90, stack: [React, Angular, Vue] }
   - { name: Environnement, average: 85, stack: [Docker, GitLab, CI/CD] }
 
 link-list:
@@ -27,10 +27,10 @@ link-list:
 experience-list:
   - {
       from: 2023,
-      to: 2023,
+      to: 2024,
       compagny: Miliboo,
       post: Lead Développeur,
-      description: "Développeur responsable du Micro Service, Web Service et Single Page Application du SAV des sites Miliboo. Développement de packages utilisé par toutes les teams.",
+      description: "Développeur responsable du Micro Service, Web Service et Applications du SAV  Miliboo. Mise en place de la stack micro service sur l'ensemble des projets.",
     }
   - {
       from: 2022,
@@ -44,7 +44,7 @@ experience-list:
       to: 2022,
       compagny: Seeren,
       post: Développeur Web,
-      description: "Entrepreneur. Développement d'applications web et hybride, vente de produits numériques. Consultant web dans de nombreux contexts et formateur référent en M1.",
+      description: "Entrepreneur. Développement d'applications web et hybride, vente de produits numériques. Consultant web dans de nombreux contexts et formateur référent en Master 1.",
     }
   - {
       from: 2010,
