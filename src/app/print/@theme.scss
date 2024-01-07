@@ -55,11 +55,16 @@ ul {
     }
 
     ol {
-        @extend .pl-4, .pb-4;
+        @extend .pl-0, .pb-4;
 
         li {
             @extend .font-light, .p-0, .m-0, .justify, .smaller, .primary-light;
+            line-height: 1.2rem;
             list-style-type: disc;
+            &:before {
+                content: "•";
+                @extend .primary, .inline-block, .pr-2;
+            }
         }
     }
 }
