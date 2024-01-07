@@ -2,17 +2,17 @@ identity:
   firstname: cyril
   lastname: ichti
   post: Développeur Web
-  phone: 📱 06 58 66 55 14
-  mail: 📧 cyril.ichti@gmail.com
+  phone: 06 58 66 55 14
+  mail: cyril.ichti@gmail.com
   linkedin: https://fr.linkedin.com/in/cyril-ichti
-  city: 🦆 Annecy
+  city: Annecy
 
 profile:
   - Audacieux, motivation driven professionnel avec +10 ans d'expérience en développement web.
   - Équipé de succès dans l'identification puis l'implémentation de solutions techniques innovantes correspondant aux besoins.
-  - Compétent pour développer des micro-services et web services, des interfaces utilisateur accessible et pour accepter le changement.
+  - Compétent pour développer des micro-services, des web services, des interfaces utilisateur accessibles et pour accepter le changement.
 
-skill-list: 
+skill-list:
   - { name: Micro Service, average: 90, stack: [Kafka, NestJS, Laravel] }
   - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
   - { name: Single Page Application, average: 90, stack: [React, Angular, Vue] }
@@ -21,7 +21,6 @@ skill-list:
 link-list:
   github: https://github.com/seeren
   android: https://play.google.com/store/apps/developer?id=Seeren
-  ios: https://apps.apple.com/us/developer/cyril-ichti/id1594232410
   linkedin: https://www.linkedin.com/in/cyril-ichti/
 
 experience-list:
@@ -30,28 +29,51 @@ experience-list:
       to: 2024,
       compagny: Miliboo,
       post: Lead Développeur,
-      description: "Développeur responsable du Micro Service, Web Service et Applications du SAV  Miliboo. Mise en place de la stack micro service sur l'ensemble des projets.",
+      description:
+        [
+          "Lead micro-service, web-service et SPA du SAV Miliboo.",
+          "Identification et mise en place du broker Kafka sur le SI.",
+          "Développement de packages installés sur les projets.",
+          "Solutionneur transversal à toutes les équipes.",
+          "Négocation des features avec le PO et chef de projet.",
+        ],
     }
   - {
       from: 2022,
       to: 2023,
       compagny: Miliboo,
       post: Développeur Web,
-      description: "Développeur confirmé de la team Web Expert Business de refonte du site marchand Miliboo. Développement de features, web services, integrations et code reviews.",
+      description:
+        [
+        "Développement de features: endpoints et intégrations.",
+        "Analyse, conception, rédaction de tickets, code review.",
+        ],
     }
   - {
       from: 2011,
       to: 2022,
       compagny: Seeren,
       post: Développeur Web,
-      description: "Entrepreneur. Développement d'applications web et hybride, vente de produits numériques. Consultant web dans de nombreux contexts et formateur référent en Master 1.",
+      description:
+        [
+        "Entrepreneur en statut S.A.S.",
+        "Développement web, déploiements et maintenances.",
+        "Développement d'applications hybrides Android et Ios.",
+        "Formateur référent Master 1 Concepteur Développeur.",
+        "Consultant dans des dizaines d'entreprises.",
+        "Audit de sécurité applicative et pentesting.",
+        ],
     }
   - {
       from: 2010,
       to: 2011,
       compagny: LGCI,
       post: Intégrateur Web,
-      description: "Développement en PHP de templates et de sites web spécifiques, création de web designs et Intégration.",
+      description:
+        [
+          "Développement de templates et de sites vitrines.",
+          "Développement d'animations en action script.",
+        ],
     }
 
 certification-list:
@@ -71,10 +93,4 @@ education-list:
       to: 2008,
       school: ESMA Montpellier,
       description: "École Supérieure des Métiers Artistiques de Montpellier.",
-    }
-  - {
-      from: 2005,
-      to: 2006,
-      school: Université Paul Valery Montpellier,
-      description: "Sciences humaines et sociales, les langues et les arts.",
     }

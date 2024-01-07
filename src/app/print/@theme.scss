@@ -1,13 +1,20 @@
 @import "./@variables.scss";
 @import "./@helper.scss";
 
+header {
+    height: 15%;
+}
+
 h1 {
     @extend .m-0, .p-0, .font-2-5, .font-semi-bold, .accent, .letter-space, .caps;
-    & + p {
+
+    &+p {
         @extend .m-0, .p-0, .font-1-25, .font-medium, .letter-space;
     }
-    & ~ ul {
+
+    &~ul {
         @extend .flex, .pt-3, .font-light, .font-0-75, .letter-space;
+
         li,
         a {
             @extend .grow, .accent;
@@ -21,7 +28,8 @@ h2 {
 
 h3 {
     @extend .m-0, .pb-2, .font-normal, .font-1;
-    & + p {
+
+    &+p {
         @extend .mb-4;
     }
 }
@@ -33,13 +41,25 @@ p {
 
 ul {
     @extend .m-0, .p-0;
+
     li {
         list-style-type: none;
     }
+
     & ul {
         @extend .flex, .mb-3, .font-light, .smaller, .letter-space;
+
         li {
             @extend .grow, .primary-light;
+        }
+    }
+
+    ol {
+        @extend .pl-4, .pb-4;
+
+        li {
+            @extend .font-light, .p-0, .m-0, .justify, .smaller, .primary-light;
+            list-style-type: disc;
         }
     }
 }
@@ -53,12 +73,15 @@ progress {
     @extend .block, .accent;
     height: $border;
     background-color: $accent-light;
+
     &::-webkit-progress-bar {
         background-color: $accent-light;
     }
+
     &::-moz-progress-bar {
         background-color: $accent !important;
     }
+
     &::-webkit-progress-value {
         background-color: $accent !important;
     }

@@ -1,4 +1,4 @@
-<div class="inline-block fix w-9 v-top">
+<div class="w-10">
     <h1>
         <a class="accent" target="_blank" href="${ yaml.linkedin }" title="Ouvrir sur Linkedin">
             ${ yaml.firstname } ${ yaml.lastname }
@@ -8,21 +8,21 @@
     <ul>
         <li>
             <a target="_blank" href="tel:${ yaml.phone.replace(/\s/g, '')  }" title="Lancer un appel">
-                ${ yaml.phone }
+                📱 ${ yaml.phone }
             </a>
         </li>
         <li>
             <a target="_blank" href="mailto:${ yaml.mail }" title="Ecrire un mail">
-                ${ yaml.mail }
+                📧 ${ yaml.mail }
             </a>
         </li>
         <li>
             <a target="_blank" href="https://www.google.com/maps/place/Annecy" title="Voir sur GoogleMap">
-               ${ yaml.city }
+                🦆 ${ yaml.city }
             </a>
         </li>
     </ul>
 </div>
-<div class="inline-block fix w-3 v-top center">
-    <img src="assets/identity.jpg" class="w-7 inline-block fix" />
+<div class="flex w-2 h-9 flex-center-center">
+    <img src="assets/identity.jpg" class="h-12 box" />
 </div>
