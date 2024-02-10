@@ -1,9 +1,10 @@
 app-identity { 
     .identity {
-        background-image: url('/src/app/print/identity/identity.jpg');
+        background-image: url('/src/app/print/identity/cyril.jpg');
     }
     img {
         border-radius: 50%;
         border: $border solid $accent;
+        
     }
 }

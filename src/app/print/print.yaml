@@ -8,14 +8,14 @@ identity:
   city: Annecy
 
 profile:
-  - Audacieux, motivation driven professionnel avec +10 ans d'expérience en développement web.
-  - Équipé de succès dans l'identification puis l'implémentation de solutions techniques innovantes correspondant aux besoins.
-  - Compétent pour développer des micro-services, des web services, des interfaces utilisateur accessibles et pour accepter le changement.
+  - Créatif et force de proposition, je guide les équipes à travers des solutions innovantes que je propose.
+  - Mon expérience se distingue par une transition en micro service en utilisant des technologies avant-gardistes telles que Kafka.
+  - Mon approche est motivée par une quête de l'amélioration continue. Mon objectif est d'insuffler une dynamique positive, où la créativité rencontre la rigueur technique.
 
 skill-list:
-  - { name: Micro Service, average: 90, stack: [Kafka, NestJS, Laravel] }
+  - { name: Micro Service, average: 90, stack: [Kafka, NestJS, OTEL] }
   - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
-  - { name: Single Page Application, average: 90, stack: [React, Angular, Vue] }
+  - { name: Application, average: 90, stack: [React, Angular, Vue] }
   - { name: Environnement, average: 85, stack: [Docker, GitLab, CI/CD] }
 
 link-list:
@@ -33,9 +33,9 @@ experience-list:
         [
           "Lead micro-service, web-service et SPA du SAV Miliboo.",
           "Identification et mise en place du broker Kafka sur le SI.",
-          "Développement de packages installés sur les projets.",
-          "Solutionneur transversal à toutes les équipes.",
           "Négocation des features avec le PO et chef de projet.",
+          "Plannification, suivi des tickets, code review.",
+          "Management de l'équipe, congés, entretiens, bilans.",
         ],
     }
   - {
@@ -57,11 +57,11 @@ experience-list:
       description:
         [
         "Entrepreneur en statut S.A.S.",
-        "Développement web, déploiements et maintenances.",
-        "Développement d'applications hybrides Android et Ios.",
-        "Formateur référent Master 1 Concepteur Développeur.",
         "Consultant dans des dizaines d'entreprises.",
-        "Audit de sécurité applicative et pentesting.",
+        "Développement web et mobile en webview.",
+        "Plannification, chiffrage et suivi des projets.",
+        "Rédaction des specs en collaboration avec le client.",
+        "Formateur référent Master 1 et Master 2.",
         ],
     }
   - {
