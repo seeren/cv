@@ -8,6 +8,9 @@
             ${ experience.post } -
             <span class="font-light">${ experience.compagny.toUpperCase() }</span>
         </h3>
+        <p class="p-0 m-0 smaller">
+            ${ experience.intro }
+        </p>
         <ol>
             ${ experience.description.map((item) => `<li>${item}</li>`).join('') }
         </ol>

@@ -1,26 +1,26 @@
 identity:
   firstname: cyril
   lastname: ichti
-  post: Développeur Web
+  post:  Lead Developer Nestjs / React
   phone: 06 58 66 55 14
   mail: cyril.ichti@gmail.com
   linkedin: https://fr.linkedin.com/in/cyril-ichti
   city: Annecy
 
 profile:
-  - Créatif et force de proposition, je guide les équipes à travers des solutions innovantes que je propose.
-  - Mon expérience se distingue par une transition en micro service en utilisant des technologies avant-gardistes telles que Kafka.
-  - Mon approche est motivée par une quête de l'amélioration continue. Mon objectif est d'insuffler une dynamique positive, où la créativité rencontre la rigueur technique.
+  - Je souhaite continuer à progresser en fédérant les energies.
+  - Mon objectif est d'insuffler une dynamique positive où la créativité rencontre la rigueur technique.
+  - Je suis force de proposition, il m'arrive de guider les équipes à travers des solutions innovantes que je propose. Mon expérience se distingue par une transition en micro service en utilisant des technologies telles que Kafka et NestJS.
 
 skill-list:
-  - { name: Micro Service, average: 90, stack: [Kafka, NestJS, OTEL] }
-  - { name: Web Service, average: 85, stack: [NestJS, Laravel, Symfony] }
-  - { name: Application, average: 90, stack: [React, Angular, Vue] }
-  - { name: Environnement, average: 85, stack: [Docker, GitLab, CI/CD] }
+  - { name: Front End, average: 90, stack: [Angular, React, WebGL] }
+  - { name: Back End, average: 90, stack: [NestJS, Symfony, Laravel] }
+  - { name: Storage, average: 80, stack: [Kafka, Redis, SQL] }
+  - { name: Mobile, average: 85, stack: [Ionic, Cordova, ReactNative] }
+  - { name: Deployment, average: 85, stack: [Docker, GitLab, CI/CD] }
 
 link-list:
   github: https://github.com/seeren
-  android: https://play.google.com/store/apps/developer?id=Seeren
   linkedin: https://www.linkedin.com/in/cyril-ichti/
 
 experience-list:
@@ -28,53 +28,43 @@ experience-list:
       from: 2023,
       to: 2024,
       compagny: Miliboo,
-      post: Lead Développeur,
+      post: Lead Developer NestJS / React,
+      intro:  "Lead Micro service, web service et SPA du service après-vente. L'équipe est constituée de 3 développeurs sur un fonctionnement Agile dont je suis le garant:",
       description:
         [
-          "Lead micro-service, web-service et SPA du SAV Miliboo.",
-          "Identification et mise en place du broker Kafka sur le SI.",
-          "Négocation des features avec le PO et chef de projet.",
+          "Développement de features Front et Back.",
           "Planification, suivi des tickets, code review.",
-          "Management de l'équipe, congés, entretiens, bilans.",
+          "Identification et mise en place du broker Kafka sur le SI.",
         ],
     }
   - {
       from: 2022,
       to: 2023,
       compagny: Miliboo,
-      post: Développeur Web,
+      post: Developer Laravel / Vue,
+      intro: "Refonte du e-commerce, l'équipe est constituée de 4 développeurs:",
       description:
         [
         "Développement de features: endpoints et intégrations.",
         "Analyse, conception, rédaction de tickets, code review.",
+        "Présentation de la démo au client final.",
         ],
     }
   - {
       from: 2011,
       to: 2022,
       compagny: Seeren,
-      post: Développeur Web,
+      post: Developer Full Stack,
+      intro: "À 25 ans je créé ma structure et prospecte pour dénicher mes premiers clients qui me permettrons de la faire grandir jusqu’à accueillir 3 salariés:",
       description:
         [
-        "Entrepreneur en statut S.A.S.",
-        "Consultant dans des dizaines d'entreprises.",
-        "Développement web et mobile en webview.",
-        "Planification, chiffrage et suivi des projets.",
-        "Rédaction des specs en collaboration avec le client.",
+        "Plusieurs missions Front et Back.",
+        "Projets avec nos propres clients.",
+        "Audit de performance et sécurité.",
         "Formateur référent Master 1 et Master 2.",
         ],
     }
-  - {
-      from: 2010,
-      to: 2011,
-      compagny: LGCI,
-      post: Intégrateur Web,
-      description:
-        [
-          "Développement de templates et de sites vitrines.",
-          "Développement d'animations en action script.",
-        ],
-    }
+ 
 
 certification-list:
   psm1: { date: 2018, link: https://www.scrum.org/user/421856 }
