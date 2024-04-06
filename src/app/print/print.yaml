@@ -10,14 +10,14 @@ identity:
 profile:
   - Je souhaite continuer à progresser en fédérant les energies.
   - Mon objectif est d'insuffler une dynamique positive où la créativité rencontre la rigueur technique.
-  - Je suis force de proposition, il m'arrive de guider les équipes à travers des solutions innovantes que je propose. Mon expérience se distingue par une transition en micro service en utilisant des technologies telles que Kafka et NestJS.
+  - Je suis force de proposition, il m'arrive de guider les équipes à travers les workflows et les solutions techniques que je propose. Mon expérience se distingue par une transition en micro service en utilisant des technologies telles que Kafka.
 
 skill-list:
-  - { name: Front End, average: 90, stack: [Angular, React, WebGL] }
-  - { name: Back End, average: 90, stack: [NestJS, Symfony, Laravel] }
-  - { name: Storage, average: 80, stack: [Kafka, Redis, SQL] }
-  - { name: Mobile, average: 85, stack: [Ionic, Cordova, ReactNative] }
-  - { name: Deployment, average: 85, stack: [Docker, GitLab, CI/CD] }
+  - { name: Managment, average: 85, stack: [Analyse, Estimation, Planning] }
+  - { name: Method, average: 85, stack: [Agile, Scrum, XP] }
+  - { name: Front End, average: 90, stack: [Angular, React, Vue] }
+  - { name: Back End, average: 90, stack: [Nest, Kafka, Laravel] }
+  - { name: Deployment, average: 85, stack: [Docker, Gitlab, CI/CD] }
 
 link-list:
   github: https://github.com/seeren
@@ -29,12 +29,12 @@ experience-list:
       to: 2024,
       compagny: Miliboo,
       post: Lead Developer NestJS / React,
-      intro:  "Lead Micro service, web service et SPA du service après-vente. L'équipe est constituée de 3 développeurs sur un fonctionnement Agile dont je suis le garant:",
+      intro:  "Lead Micro service et SPA du service après-vente. L'équipe est constituée de 3 développeurs sur un fonctionnement Agile dont je suis le garant:",
       description:
         [
-          "Développement de features Front et Back.",
+          "Cadrage des actions cross équipes.",
           "Planification, suivi des tickets, code review.",
-          "Identification et mise en place du broker Kafka sur le SI.",
+          "Développement de features Front et Back.",
         ],
     }
   - {
@@ -58,8 +58,8 @@ experience-list:
       intro: "À 25 ans je créé ma structure et prospecte pour dénicher mes premiers clients qui me permettrons de la faire grandir jusqu’à accueillir 3 salariés:",
       description:
         [
+        "Plannification et suivi de l'exécution.",
         "Plusieurs missions Front et Back.",
-        "Projets avec nos propres clients.",
         "Audit de performance et sécurité.",
         "Formateur référent Master 1 et Master 2.",
         ],
