@@ -55,10 +55,10 @@ experience-list:
       to: 2022,
       compagny: Seeren,
       post: Developer Full Stack,
-      intro: "À 25 ans je créé ma structure et prospecte pour dénicher mes premiers clients qui me permettrons de la faire grandir jusqu’à accueillir 3 salariés:",
+      intro: "À 25 ans, je crée ma structure et prospecte pour dénicher mes premiers clients qui me permettront de la faire grandir jusqu’à accueillir 3 salariés:",
       description:
         [
-        "Plannification et suivi de l'exécution.",
+        "Planification et suivi de l'exécution.",
         "Plusieurs missions Front et Back.",
         "Audit de performance et sécurité.",
         "Formateur référent Master 1 et Master 2.",
