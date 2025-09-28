@@ -1,0 +1,102 @@
+export const cvData = {
+  identity: {
+    firstname: 'cyril',
+    lastname: 'ichti',
+    post: 'Lead Developer Nestjs / React',
+    phone: '06 58 66 55 14',
+    mail: 'cyril.ichti@gmail.com',
+    linkedin: 'https://fr.linkedin.com/in/cyril-ichti',
+    city: 'Annecy'
+  },
+
+  profile: {
+    description: [
+      'Je souhaite continuer à progresser en fédérant les énergies.',
+      'Mon objectif est d\'insuffler une dynamique positive où la créativité rencontre la rigueur technique.',
+      'Je suis force de proposition, il m\'arrive de guider les équipes à travers les workflows et les solutions techniques que je propose. Mon expérience se distingue par une transition en micro service en utilisant des technologies telles que Kafka.'
+    ]
+  },
+
+  skillList: {
+    skills: [
+      { name: 'Managment', average: 85, stack: ['Analyse', 'Estimation', 'Planning'] },
+      { name: 'Method', average: 85, stack: ['Agile', 'Scrum', 'XP'] },
+      { name: 'Front End', average: 90, stack: ['Angular', 'React', 'Vue'] },
+      { name: 'Back End', average: 90, stack: ['Nest', 'Kafka', 'Laravel'] },
+      { name: 'Deployment', average: 85, stack: ['Docker', 'Gitlab', 'CI/CD'] }
+    ]
+  },
+
+  linkList: {
+    links: {
+      github: 'https://github.com/seeren',
+      linkedin: 'https://www.linkedin.com/in/cyril-ichti/'
+    }
+  },
+
+  experienceList: {
+    experiences: [
+      {
+        from: 2023,
+        to: 2024,
+        compagny: 'Miliboo',
+        post: 'Lead Developer NestJS / React',
+        intro: 'Lead Micro service et SPA du service après-vente. L\'équipe est constituée de 3 développeurs sur un fonctionnement Agile dont je suis le garant:',
+        description: [
+          'Cadrage des actions cross équipes.',
+          'Planification, suivi des tickets, code review.',
+          'Développement de features Front et Back.'
+        ]
+      },
+      {
+        from: 2022,
+        to: 2023,
+        compagny: 'Miliboo',
+        post: 'Developer Laravel / Vue',
+        intro: 'Refonte du e-commerce, l\'équipe est constituée de 4 développeurs:',
+        description: [
+          'Développement de features: endpoints et intégrations.',
+          'Analyse, conception, rédaction de tickets, code review.',
+          'Présentation de la démo au client final.'
+        ]
+      },
+      {
+        from: 2011,
+        to: 2022,
+        compagny: 'Seeren',
+        post: 'Developer Full Stack',
+        intro: 'À 25 ans, je crée ma structure et prospecte pour dénicher mes premiers clients qui me permettront de la faire grandir jusqu\'à accueillir 3 salariés:',
+        description: [
+          'Planification et suivi de l\'exécution.',
+          'Plusieurs missions Front et Back.',
+          'Audit de performance et sécurité.',
+          'Formateur référent Master 1 et Master 2.'
+        ]
+      }
+    ]
+  },
+
+  certificationList: {
+    certifications: {
+      psm1: { date: 2018, link: 'https://www.scrum.org/user/421856' },
+      zcpe: { date: 2016, link: 'https://www.zend-zce.com/en/yellow-pages/ZEND028549' }
+    }
+  },
+
+  educationList: {
+    educations: [
+      {
+        from: 2008,
+        to: 2011,
+        school: 'ENSA Marseille',
+        description: 'École Nationale Supérieure d\'Architecture de Marseille.'
+      },
+      {
+        from: 2006,
+        to: 2008,
+        school: 'ESMA Montpellier',
+        description: 'École Supérieure des Métiers Artistiques de Montpellier.'
+      }
+    ]
+  }
+};
