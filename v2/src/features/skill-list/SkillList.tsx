@@ -23,7 +23,7 @@ const SkillList: React.FC<SkillListProps> = ({ skills }) => {
   };
 
   return (
-    <section className="h-full p-2 overflow-hidden">
+    <section className="h-full overflow-hidden">
       <h2 className="text-xs font-semibold text-gray-900 mb-2 uppercase tracking-wide border-b border-gray-200 pb-1">COMPÉTENCES</h2>
       <div className="space-y-2 overflow-hidden">
         {skills.map((skill, index) => (
@@ -33,14 +33,14 @@ const SkillList: React.FC<SkillListProps> = ({ skills }) => {
               <span className="text-xs text-gray-500">{skill.average}%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-1">
-              <div 
+              <div
                 className={`h-1 rounded-full ${getSkillColor(skill.name)}`}
-                style={{width: `${skill.average}%`}}
+                style={{ width: `${skill.average}%` }}
               ></div>
             </div>
             <div className="flex flex-wrap gap-1">
               {skill.stack.map((tech, techIndex) => (
-                <span 
+                <span
                   key={techIndex}
                   className="text-xs bg-gray-100 text-gray-700 px-1 py-0.5 rounded border border-gray-200"
                 >

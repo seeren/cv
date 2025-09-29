@@ -2,11 +2,12 @@ export const cvData = {
   identity: {
     firstname: 'cyril',
     lastname: 'ichti',
-    post: 'Lead Developer Nestjs / React',
+    post: 'Directeur de projet digital – CTO – Delivery Manager',
     phone: '06 58 66 55 14',
     mail: 'cyril.ichti@gmail.com',
-    linkedin: 'https://fr.linkedin.com/in/cyril-ichti',
-    city: 'Annecy'
+    linkedin: 'fr.linkedin.com/in/cyril-ichti',
+    city: 'Annecy',
+    country: 'France',
   },
 
   profile: {

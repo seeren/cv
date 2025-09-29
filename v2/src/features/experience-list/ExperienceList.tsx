@@ -15,7 +15,7 @@ interface ExperienceListProps {
 
 const ExperienceList: React.FC<ExperienceListProps> = ({ experiences }) => {
   return (
-    <section className="h-full p-2 overflow-hidden">
+    <section>
       <h2 className="text-xs font-semibold text-gray-900 mb-2 uppercase tracking-wide border-b border-gray-200 pb-1">EXPÉRIENCES</h2>
       <div className="space-y-2 overflow-hidden">
         {experiences.map((exp, index) => (
