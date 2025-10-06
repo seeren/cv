@@ -1,49 +1,66 @@
-# CV
+# CV - Cyril
 
-**Printable CV with HTML/CSS/JS**
+Mon CV personnel développé avec React, TypeScript et Tailwind CSS. Le CV est optimisé pour l'impression au format A4.
 
-## Demo
+## 🚀 Comment l'exécuter
 
-See printable CV by visiting the [GitHub Pages](https://seeren.github.io/cv/www/)
+### Prérequis
+- Node.js (version 16 ou supérieure)
+- npm ou yarn
 
-___
+### Installation et lancement
 
-## Developpment
+1. Cloner le repository
+```bash
+git clone [URL_DU_REPO]
+cd cv
+```
 
-Fork and clone this repository
-
-### Start
-
-Install dependencies
-
+2. Installer les dépendances
 ```bash
 npm install
 ```
 
-Run local server
-
+3. Lancer le serveur de développement
 ```bash
-npm start
+npm run dev
 ```
 
-### Edit data
+4. Ouvrir votre navigateur sur `http://localhost:5173`
 
-* CV Informations: [`src/app/print/print.yaml`](https://github.com/seeren/cv/blob/master/src/app/print/print.yaml)
+### Autres commandes disponibles
 
-### Edit template
+- `npm run build` - Construire la version de production
+- `npm run preview` - Prévisualiser la version de production
+- `npm run start` - Alternative à `npm run dev`
 
-* Colors and sizes: [`src/app/print/@variables.scss`](https://github.com/seeren/cv/blob/master/src/app/print/%40variables.scss)
-* Dispositions [`src/app/print/@theme.scss`](https://github.com/seeren/cv/blob/master/src/app/print/%40theme.scss)
+## 📄 Format A4
 
-### Build
+Le CV est conçu spécifiquement pour le format A4 (210mm × 297mm) et optimisé pour l'impression. Utilisez la fonction d'impression de votre navigateur (Ctrl/Cmd + P) pour imprimer ou sauvegarder en PDF.
 
-Distribuable content is under `www` folder
+## 🛠️ Technologies utilisées
 
-```bash
-npm run build
+- **React 19** - Framework JavaScript
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Framework CSS
+- **Vite** - Outil de build et serveur de développement
+- **Lucide React** - Icônes
+
+## 📁 Structure du projet
+
 ```
-___
-
-## License
-
-This project is licensed under the [MIT](LICENSE) License.
+src/
+├── components/         # Composants réutilisables
+│   ├── A4.tsx          # Composant wrapper pour le format A4
+│   ├── ButtonPrint.tsx # Bouton d'impression
+│   ├── Section.tsx     # Composant de section
+│   └── SectionHeading.tsx
+├── features/           # Sections du CV
+│   ├── achievements/   # Réalisations
+│   ├── certifications/ # Certifications
+│   ├── educations/     # Formation
+│   ├── experiences/    # Expériences professionnelles
+│   ├── identity/       # Informations personnelles
+│   ├── profile/        # Profil/À propos
+│   └── skills/         # Compétences
+```
