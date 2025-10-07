@@ -1,4 +1,5 @@
 import { data } from './data';
+import profileImage from '../../assets/cyril.jpg';
 
 
 function Identity() {
@@ -52,7 +53,7 @@ function Identity() {
         </div>
         <div className="w-20 h-20 rounded-full border border-blue-dark self-start overflow-hidden">
           <img
-            src="/assets/cyril.jpg"
+            src={profileImage}
             alt={`${data.firstname} ${data.lastname}`}
             className="w-full h-full object-cover scale-125 translate-y-2"
           />
