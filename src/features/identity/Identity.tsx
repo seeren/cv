@@ -13,19 +13,39 @@ function Identity() {
             {data.post}
           </p>
           <div className="flex space-x-2 text-xs text-blue-dark">
-            <a className="hover:underline" href={`https://www.google.com/maps/place/${data.city}`} target="_blank" rel="noopener noreferrer">
+            <a 
+              className="hover:underline" 
+              href={`https://www.google.com/maps/place/${data.city}`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label={`${data.city}, ${data.country} (ouvre dans un nouvel onglet)`}
+            >
               {data.city}, {data.country}
             </a>
-            <span>|</span>
-            <a className="hover:underline" href={`mailto:${data.mail}`} target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">|</span>
+            <a 
+              className="hover:underline" 
+              href={`mailto:${data.mail}`}
+              aria-label={`Envoyer un email à ${data.mail}`}
+            >
               {data.mail}
             </a>
-            <span>|</span>
-            <a className="hover:underline" href={`tel:${data.phone}`} target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">|</span>
+            <a 
+              className="hover:underline" 
+              href={`tel:${data.phone}`}
+              aria-label={`Appeler le ${data.phone}`}
+            >
               {data.phone}
             </a>
-            <span>|</span>
-            <a className="hover:underline" href={data.linkedin} target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">|</span>
+            <a 
+              className="hover:underline" 
+              href={data.linkedin} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label={`Profil LinkedIn (ouvre dans un nouvel onglet)`}
+            >
               {data.linkedin}
             </a>
           </div>

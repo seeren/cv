@@ -16,7 +16,7 @@ function Eductions() {
                   {education.school}
                 </p>
               </div>
-              <p className="text-xs text-gray-500 italic ml-4">
+              <p className="text-xs text-gray-600 italic ml-4">
                 {education.period}
               </p>
             </div>

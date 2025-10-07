@@ -18,7 +18,7 @@ function Experiences() {
                     {experience.company}
                   </p>
                 </div>
-                <p className="text-xs text-gray-500 italic ml-4">
+                <p className="text-xs text-gray-600 italic ml-4">
                   {experience.period}
                 </p>
               </div>

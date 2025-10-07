@@ -1,6 +1,7 @@
 {
   "name": "v2",
   "version": "0.1.0",
+  "description": "Cyril Ichti - Directeur de projet digital – CTO – Delivery Manager",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
