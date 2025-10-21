@@ -42,7 +42,7 @@ function Identity() {
             <span aria-hidden="true">|</span>
             <a 
               className="hover:underline" 
-              href={data.linkedin} 
+              href={`https://${data.linkedin}`} 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label={`Profil LinkedIn (ouvre dans un nouvel onglet)`}
