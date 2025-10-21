@@ -8,6 +8,7 @@ export const data = [
             'Conception d’une architecture micro-services Kafka, intégrée dans un delivery itératif SAFe.',
             'Supervision du delivery, des environnements CI/CD, et de la standardisation Docker.',
             'Animation d’équipes pluridisciplinaires (Front, Back, Data, Ops – 12 personnes).',
+            'Accélération du delivery pour optimiser l’amortissement comptable et financer une nouvelle phase de build stratégique.',
         ]
     },
     {
