@@ -1,7 +1,7 @@
 export const data = [
     {
-        title: 'Management & Leadership',
-        description: 'Pilotage d’équipes, recrutement, montée en compétence'
+        title: 'Leadership & Management',
+        description: 'Pilotage – Coaching – Recrutement – Stratégie'
     },
     {
         title: 'Architecture & Delivery',
@@ -12,7 +12,7 @@ export const data = [
         description: 'Agile, Scrum, SAFe, Kanban'
     },
     {
-        title: 'E-commerce & Plateformes',
-        description: 'Performance, disponibilité, sécurité'
+        title: 'Domaines',
+        description: 'E-commerce, marketplaces, transformation digitale'
     },
 ];
