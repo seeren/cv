@@ -5,10 +5,10 @@ import { data } from './data';
 function Experiences() {
   return (
     <Section title="Expériences">
-      <div className="space-y-2 py-2">
+      <div className="space-y-4 py-4">
         {data.map((experience, index) => (
           <Fragment key={index}>
-            <div className="text-gray-700 space-y-1 flex-1">
+            <div className="text-gray-700 space-y-3 flex-1">
               <div className="flex justify-between items-baseline">
                 <div>
                   <h3 className="text-md leading-tight">

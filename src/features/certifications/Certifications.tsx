@@ -9,7 +9,7 @@ function Certifications() {
           <li key={index} className="flex space-x-4">
             <certification.icon className="w-4 h-4 shrink-0 mt-1 text-blue-dark" />
             <div className="text-gray-700 space-y-1">
-              <h3 className="text-md hyphens-auto flex font-semibold leading-tight">
+              <h3 className="text-md hyphens-auto flex leading-tight">
                 {certification.title}
               </h3>
               <p className="text-xs hyphens-auto italic">
