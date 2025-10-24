@@ -1,29 +1,29 @@
 import {
-    Zap,
-    TrendingUp,
-    Target,
-    Lock
+    Rocket,
+    Settings,
+    Cpu,
+    Users
 } from 'lucide-react';
 
 export const data = [
     {
-        icon: Zap,
-        title: 'Transformation du SI',
-        description: 'Refonte du SI vers une architecture micro-services (Kafka), augmentant la résilience et la scalabilité de la plateforme e-commerce.'
+        icon: Rocket,
+        title: 'Opérations & Delivery',
+        description: '7 produits majeurs livrés en 18 mois, lancement réduit à 4 semaines via approche MVP, rétablissement moyen < 1h et satisfaction client en croissance.'
     },
     {
-        icon: TrendingUp,
-        title: 'E-commerce & delivery',
-        description: 'Accélération du delivery (x3) via un modèle MVP et SAFe, pour un site générant plusieurs millions d’euros de CA.'
+        icon: Settings,
+        title: 'Performance & Organisation',
+        description: 'Clarification des rôles, réallocation des talents et rituels outillés pour optimiser le delivery et fluidifier la coordination entre 4 équipes et 13 collaborateurs internes.',
     },
     {
-        icon: Lock,
-        title: 'Identité & sécurité',
-        description: 'Mise en place d’un SSO multi-applications (100+ utilisateurs), simplifiant l’accès et renforçant la sécurité.'
+        icon: Cpu,
+        title: 'Transformation Digitale',
+        description: 'Productivité accrue et turnover réduit de moitié grâce à une culture de responsabilité partagée et des décisions claires.'
     },
     {
-        icon: Target,
-        title: 'Agilité à l\'échelle',
-        description: 'Coaching et structuration d’équipes pluridisciplinaires (12 pers.) autour d’objectifs communs orientés business.'
+        icon: Users,
+        title: 'Leadership & Cohésion',
+        description: 'Priorisation et arbitrages pour garantir 90% des engagements respectés, gestion ciblée du staffing et support de la roadmap business.'
     }
 ];

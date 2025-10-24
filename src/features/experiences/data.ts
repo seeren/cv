@@ -1,24 +1,25 @@
 export const data = [
     {
-        title: 'Directeur de projet / CTO opérationnel',
+        title: 'Directeur de projet',
         company: 'Web Expert Business',
         period: '2022 – aujourd\'hui',
         achievements: [
-            'Pilotage de la transformation digitale d’un site e-commerce à fort trafic (plusieurs millions d’euros de CA).',
-            'Conception d’une architecture micro-services Kafka, intégrée dans un delivery itératif SAFe.',
-            'Supervision du delivery, des environnements CI/CD, et de la standardisation Docker.',
-            'Animation d’équipes pluridisciplinaires (Front, Back, Data, Ops – 12 personnes).',
-            'Accélération du delivery pour optimiser l’amortissement comptable et financer une nouvelle phase de build stratégique.',
+            'Pilotage d’une équipe de 13 au sein d’un programme >100 collaborateurs sur 11 produits.',
+            'Priorisation et arbitrages : 90% des engagements respectés, rythme de livraison 6 jalons/mois.',
+            'Accélération du time-to-market : lancement ramené à 4 semaines via MVP, assurant un amortissement plus rapide des investissements clients.',
+            'Clarification des rôles et optimisation des ressources : meilleure allocation des talents et productivité accrue.',
+            'Performance opérationnelle : rétablissement moyen <1h ; satisfaction client en croissance.',
+            'Support ciblé de la roadmap business via recrutement et ajustement des équipes.',
         ]
     },
     {
-        title: 'Fondateur / Consultant',
+        title: 'Fondateur / Dirigeant',
         company: 'Seeren',
         period: '2011 – 2022',
         achievements: [
-            'Conception de solutions web et mobiles pour startups, PME et institutions.',
-            'Accompagnement technique et stratégique de projets digitaux sur mesure.',
-            'Enseignement en Master 1 & 2 – accompagnement à la professionnalisation de dizaines d’étudiants.'
+            'Polyvalence sur 10 ans : support, conseil stratégique, adaptation aux besoins clients.',
+            'Responsable de la qualité, du delivery et des interactions clients.',
+            'Conception et livraison de solutions variées : apps mobiles, outils web, ebooks et mini-jeux.',
         ]
     },
     {

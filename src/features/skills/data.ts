@@ -1,11 +1,11 @@
 export const data = [
     {
         title: 'Leadership & Management',
-        description: 'Pilotage – Coaching – Recrutement – Stratégie'
+        description: 'Pilotage, coaching, recrutement, stratégie'
     },
     {
         title: 'Architecture & Delivery',
-        description: 'Micro-services, Kafka, CI/CD, Docker, PHP, JS'
+        description: 'Conception et delivery de plateformes digitales'
     },
     {
         title: 'Méthodes',
