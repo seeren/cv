@@ -11,14 +11,14 @@ function Experiences() {
             <div className="text-gray-700 space-y-3 flex-1">
               <div className="flex justify-between items-baseline">
                 <div>
-                  <h3 className="text-md leading-tight">
+                  <h3 className="text-md leading-tight hyphens-auto">
                     {experience.title}
                   </h3>
                   <p className="text-xs">
                     {experience.company}
                   </p>
                 </div>
-                <p className="text-xs text-gray-600 italic ml-4">
+                <p className="text-xs text-gray-600 italic ml-4 whitespace-nowrap">
                   {experience.period}
                 </p>
               </div>

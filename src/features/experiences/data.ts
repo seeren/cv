@@ -1,15 +1,16 @@
 export const data = [
     {
-        title: 'Directeur de projet',
+        title: 'Directeur de projet en charge des opérations & du delivery',
         company: 'Web Expert Business',
         period: '2022 – aujourd\'hui',
         achievements: [
-            'Pilotage d’une équipe de 13 au sein d’un programme >100 collaborateurs sur 11 produits.',
-            'Priorisation et arbitrages : 90% des engagements respectés, rythme de livraison 6 jalons/mois.',
-            'Accélération du time-to-market : lancement ramené à 4 semaines via MVP, assurant un amortissement plus rapide des investissements clients.',
-            'Clarification des rôles et optimisation des ressources : meilleure allocation des talents et productivité accrue.',
-            'Performance opérationnelle : rétablissement moyen <1h ; satisfaction client en croissance.',
-            'Support ciblé de la roadmap business via recrutement et ajustement des équipes.',
+            'Pilotage d’un programme de 11 produits mobilisant plus de 100 collaborateurs, avec une équipe directe de 13 personnes.',
+            'Partenaire de la direction client dans la définition et l’exécution de la roadmap stratégique.',
+            'Collaboration directe avec la direction financière pour aligner budgets, livraisons et priorités d’investissement.',
+            'Priorisation et arbitrages : rythme de livraison de 6 jalons/mois.',
+            'Optimisation des ressources et recrutement sur 20% de l\'effectif.',
+            'Performance opérationnelle : rétablissement moyen <1h lors des incidents.',
+            'Contribution directe à la satisfaction client et à la valorisation grâce à la fiabilité des livraisons et à la qualité des échanges directionnels.'
         ]
     },
     {
