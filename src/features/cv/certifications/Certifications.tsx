@@ -1,4 +1,4 @@
-import Section from '../../components/Section';
+import Section from "../../../components/Section";
 import { data } from './data';
 
 function Certifications() {

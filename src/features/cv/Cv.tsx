@@ -1,8 +1,8 @@
-import { Identity, Achievements, Skills, Certifications, Profile, Experiences, Educations } from "./features/";
-import A4 from "./components/A4";
-import ButtonPrint from "./components/ButtonPrint";
+import { Identity, Achievements, Skills, Certifications, Profile, Experiences, Educations } from "./";
+import A4 from "../../components/A4";
+import ButtonPrint from "../../components/ButtonPrint";
 
-function App() {
+function Cv() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
       <A4>
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Cv;

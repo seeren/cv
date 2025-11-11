@@ -1,5 +1,5 @@
 import { Fragment } from 'react/jsx-runtime';
-import Section from '../../components/Section';
+import Section from "../../../components/Section";
 import { data } from './data';
 
 function Experiences() {
