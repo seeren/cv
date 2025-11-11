@@ -5,18 +5,16 @@ import ButtonPrint from "../../components/ButtonPrint";
 function Detail() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
-      <A4>
+      <A4 multiple>
         <Identity />
         <main className="flex flex-1 py-6">
-          <section className="flex flex-col border-r-2 border-blue-dark w-2/5 pr-6">
-            <Achievements />
-            <Skills />
-            <Certifications />
-          </section>
-          <section className="flex flex-col w-3/5 pl-6">
+
+          <section className="flex flex-col">
             <Profile />
+            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
             <Experiences />
-            <Educations />
+            <Experiences />
+            <Experiences />
           </section>
         </main>
       </A4>
