@@ -1,6 +1,7 @@
-import { Identity, Achievements, Skills, Certifications, Profile, Experiences, Educations } from "../cv";
+import { Identity, Profile } from "../cv";
 import A4 from "../../components/A4";
 import ButtonPrint from "../../components/ButtonPrint";
+import DetailedExperiences from "./experiences/DetailedExperiences";
 
 function Detail() {
   return (
@@ -12,9 +13,7 @@ function Detail() {
           <section className="flex flex-col">
             <Profile />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
-            <Experiences />
-            <Experiences />
-            <Experiences />
+            <DetailedExperiences />
           </section>
         </main>
       </A4>
