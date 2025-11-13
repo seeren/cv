@@ -5,12 +5,12 @@ import { data } from './data';
 function Skills() {
   return (
     <Section title="Compétences">
-      <ul className="space-y-1 py-4">
+      <ul className="space-y-1.5 py-4">
         {data.map((skill, index) => (
-          <li key={index} className="flex text-gray-700 flex-col space-y-1">
-            <span className="text-md hyphens-auto flex leading-tight">{skill.title}</span>
+          <li key={index} className="flex text-gray-700 flex-col space-y-0.5">
+            <span className="text-sm font-semibold hyphens-auto leading-tight text-gray-900">{skill.title}</span>
             {skill.description && (
-              <span className="text-xs text-gray-500">{skill.description}</span>
+              <span className="text-xs text-gray-600 leading-snug">{skill.description}</span>
             )}
           </li>
         ))}
