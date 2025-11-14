@@ -1,4 +1,4 @@
-import { Identity, Profile } from "../cv";
+import { Certifications, Educations, Identity, Profile, Skills } from "../cv";
 import A4 from "../../components/A4";
 import ButtonPrint from "../../components/ButtonPrint";
 import DetailedExperiences from "./experiences/DetailedExperiences";
@@ -14,6 +14,12 @@ function Detail() {
             <Profile />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
             <DetailedExperiences />
+            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <Skills />
+            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <Certifications />
+            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <Educations />
           </section>
         </main>
       </A4>

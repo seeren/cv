@@ -16,7 +16,7 @@ export const data = [
         company: 'Seeren',
         period: '2011 – 2022',
         achievements: [
-            "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en rpestation de services",
+            "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en prestation de services",
             'Responsable des planning, de la qualité, du delivery et des interactions clients.',
             'Conception et livraison de solutions variées : apps mobiles, outils web, ebooks et mini-jeux.',
         ]
