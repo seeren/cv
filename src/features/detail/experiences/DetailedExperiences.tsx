@@ -54,13 +54,78 @@ function DetailedExperiences() {
                 </p>
               )}
 
+              {/* Missions (sous-expériences) */}
+              {experience.missions && experience.missions.length > 0 && (
+                <div className="mt-4 space-y-4 pl-4 border-l-2 border-gray-200">
+                  {experience.missions.map((mission: any, missionIndex: number) => (
+                    <div key={missionIndex} className="space-y-2.5">
+                      <div>
+                        <h4 className="text-sm font-medium text-gray-800 mb-1.5">
+                          {mission.subtitle}
+                        </h4>
+                        {mission.clients && mission.clients.length > 0 && (
+                          <div className="flex flex-wrap items-center gap-1 mt-1">
+                            {mission.clients.map((client: string, i: number) => (
+                              <span
+                                key={i}
+                                className="text-[9px] px-1.5 py-0.5 rounded-full border border-blue-dark/15 text-blue-dark/70 bg-blue-50/20 print:bg-transparent"
+                              >
+                                {client}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+
+                      {mission.responsabilities && mission.responsabilities.length > 0 && (
+                        <div className="print:break-inside-avoid">
+                          <div className="rounded border border-gray-100 bg-gray-50/30 print:bg-transparent">
+                            <div className="p-1.5">
+                              <h5 className="text-[9px] font-medium text-gray-500">
+                                Responsabilités
+                              </h5>
+                            </div>
+                            <ul className="px-2.5 space-y-0.5 text-[11px] text-gray-800 list-none">
+                              {mission.responsabilities.map((responsability: string, i: number) => (
+                                <li key={i} className="leading-snug hyphens-auto">
+                                  {responsability}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      )}
+
+                      {mission.achievements && mission.achievements.length > 0 && (
+                        <div className="print:break-inside-avoid">
+                          <div className="p-1.5">
+                            <h5 className="text-[9px] font-medium text-gray-500">
+                              Réalisations
+                            </h5>
+                          </div>
+                          <ul className="px-2.5 space-y-0.5 text-[11px] text-gray-800">
+                            {mission.achievements.map((achievement: string, i: number) => (
+                              <li key={i} className="leading-snug hyphens-auto flex items-start gap-1.5">
+                                <CheckCircle2 className="mt-[2px] h-2.5 w-2.5 text-green-600/60 print:text-gray-700 shrink-0" aria-hidden />
+                                <span>{achievement}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Réalisations et Responsabilités de l'expérience principale */}
               <div className="print:break-inside-avoid">
                 <div className="p-2">
                   <h4 className="text-[10px] font-medium text-gray-500">
                     Réalisations
                   </h4>
                 </div>
-                {experience.achievements?.length > 0 && (
+                {experience.achievements && experience.achievements?.length > 0 && (
                   <ul className="px-3 space-y-1 text-[12px] text-gray-800">
                     {experience.achievements.map((achievement: string, i: number) => (
                       <li key={i} className="leading-normal hyphens-auto flex items-start gap-2">
@@ -73,7 +138,7 @@ function DetailedExperiences() {
               </div>
 
               <div className="print:break-inside-avoid">
-                {experience.responsabilities?.length > 0 && (
+                {experience.responsabilities && experience.responsabilities.length > 0 && (
                   <div className="rounded border border-gray-100 bg-gray-50/40 print:bg-transparent">
                     <div className="p-2">
                       <h4 className="text-[10px] font-medium text-gray-500">

@@ -9,21 +9,21 @@ export const data = [
     {
         icon: Rocket,
         title: 'Opérations & Delivery',
-        description: '7 produits majeurs livrés en 18 mois, lancement réduit à 4 semaines via approche MVP.'
+        description: '7 produits majeurs (e-commerce et backoffice) livrés en 18 mois par une équipe multi-disciplinaire, lancement réduit à 4 semaines grâce à l’approche MVP.'
     },
     {
         icon: Settings,
         title: 'Performance & Organisation',
-        description: 'Clarification des rôles, réallocation des talents et rituels outillés pour optimiser le delivery de 4 équipes.',
+        description: 'Culture de responsabilité partagée instaurée sur 4 équipes, réduisant le turnover de 50% et augmentant la prévisibilité des livraisons.',
     },
     {
         icon: Cpu,
         title: 'Transformation Digitale',
-        description: 'Productivité accrue et turnover réduit de moitié grâce à une culture de responsabilité partagée.'
+        description: 'Refonte d’un produit obsolète en un produit modulable garantissant continuité et scalabilité des services.'
     },
     {
         icon: Users,
         title: 'Leadership & Cohésion',
-        description: 'Priorisation et arbitrages pour garantir 90% des engagements respectés, gestion ciblée du staffing.'
+        description: 'Orchestration des équipes pour garantir 90% des engagements respectés, planification et staffing optimisés selon les priorités stratégiques.'
     }
 ];
