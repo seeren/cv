@@ -1,3 +1,4 @@
+import { PrinterIcon } from "lucide-react";
 
 
 function ButtonPrint() {
@@ -9,7 +10,7 @@ function ButtonPrint() {
                 aria-label="Imprimer"
                 type="button"
             >
-                Imprimer
+                <PrinterIcon className="w-6 h-6" />
             </button>
         </div>
     );

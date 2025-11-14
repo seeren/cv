@@ -1,11 +1,11 @@
 export const data = [
     {
         title: 'Leadership & Management',
-        description: 'Pilotage, coaching, recrutement, stratégie'
+        description: 'Pilotage, coaching, recrutement, stratégie opérationnelle.'
     },
     {
         title: 'Architecture & Delivery',
-        description: 'Conception et delivery de plateformes digitales'
+        description: 'Conception et livraison de plateformes digitales multi-produits.'
     },
     {
         title: 'Méthodes',

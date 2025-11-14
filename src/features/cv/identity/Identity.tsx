@@ -1,5 +1,5 @@
 import { data } from './data';
-import profileImage from '../../assets/cyril.jpg';
+import profileImage from '../../../assets/cyril.jpg';
 
 
 function Identity() {
