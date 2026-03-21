@@ -1,9 +1,9 @@
-import { Certifications, Educations, Identity, Profile, Skills } from "../cv";
+import { Certifications, Educations, Identity, Profile, Skills } from "../two-column";
 import A4 from "../../components/A4";
 import ButtonPrint from "../../components/ButtonPrint";
 import DetailedExperiences from "./experiences/DetailedExperiences";
 
-function Detail() {
+function Detailled() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
       <A4 multiple>
@@ -28,4 +28,4 @@ function Detail() {
   );
 }
 
-export default Detail;
+export default Detailled;
