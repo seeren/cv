@@ -1,14 +1,19 @@
 import { createBrowserRouter } from "react-router-dom";
 import TwoColumn from "../features/two-column/TwoColumn";
 import Detailled from "../features/detailled/Detailled";
+import Cv from "../features/Cv";
 
 export const routes = createBrowserRouter([
     {
-        path: "/cv",
+        path: "/",
+        element: <Cv />,
+    },
+    {
+        path: "/two-column",
         element: <TwoColumn />,
     },
     {
-        path: "/cv/detailled",
+        path: "/detailled",
         element: <Detailled />,
     },
 ]);
