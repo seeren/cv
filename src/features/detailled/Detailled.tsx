@@ -1,4 +1,4 @@
-import { Certifications, Educations, Identity, Profile, Skills } from "../two-column";
+import { Certifications, Educations, Identity, Profile, Skills } from ".";
 import A4 from "../../components/A4";
 import ButtonPrint from "../../components/ButtonPrint";
 import DetailedExperiences from "./experiences/DetailedExperiences";
