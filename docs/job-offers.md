@@ -1,5 +1,7 @@
 # Offres d'emploi bookmarkees
 
+## IT
+
 ## 2026-03-21 - Product Owner DevOps (Inetum)
 
 ### Informations generales
@@ -427,3 +429,210 @@ Dans un cadre agile, le Product Owner fait le lien entre clients et equipes de d
 ### Mots-cles ATS a reutiliser
 
 `Product Owner`, `Agile`, `Backlog`, `Priorisation`, `Sprint`, `User stories`, `Planification`, `Beta test`, `Roadmap`, `Coordination transverse`, `Mise en production`, `Formation`, `Support fonctionnel`, `Relation client`, `Conception produit`, `CSPO`, `PSPO`.
+
+## 2026-03-21 - Product Owner Web (Maten)
+
+### Informations generales
+
+- **Intitule**: Product Owner Web H/F
+- **Entreprise**: Maten (recrutement)
+- **Localisation**: Montpellier (34)
+- **Type de poste**: CDI
+- **Niveau d'etudes**: Bac+3 / Bac+4
+- **Experience requise**: 5 ans
+- **Secteur**: Informatique / ESN
+- **Source**: HelloWork (copie utilisateur)
+
+### Resume de l'offre
+
+Dans le cadre d'une creation de poste chez un client technologique en croissance, le Product Owner rejoint une equipe Web composee d'un Lead Developer et de quatre developpeurs. Le role couvre le pilotage roadmap/backlog, la priorisation des fonctionnalites, l'amelioration de l'UX, la coordination transverse et l'animation agile.
+
+### Missions principales
+
+#### 1) Pilotage produit Web
+
+- Piloter la roadmap Web et gerer le backlog produit.
+- Prioriser les fonctionnalites selon besoins utilisateurs et strategie produit.
+- Contribuer a la vision produit avec le Product Manager.
+
+#### 2) Experience utilisateur et conception
+
+- Definir et ameliorer les parcours utilisateurs.
+- Veiller a la qualite de l'experience UX des interfaces Web.
+
+#### 3) Coordination et delivery agile
+
+- Coordonner equipes techniques, Customer Success et partenaires externes.
+- Suivre l'avancement des sprints.
+- Animer les rituels agiles (planning, review, retrospective).
+
+### Profil recherche
+
+- Minimum 5 ans d'experience en tant que Product Owner sur des produits Web.
+- Bonne comprehension des environnements techniques Web.
+- Maitrise des methodologies agiles (Scrum).
+- Capacite d'arbitrage entre enjeux court terme et long terme.
+- Bon relationnel, communication claire, capacite a federer autour d'une vision produit.
+- Experience startup / hypercroissance appreciee.
+- Bon niveau d'anglais attendu (contexte international).
+
+### Signaux importants pour adapter le CV
+
+- Mettre en avant les experiences de creation/acceleration de produits Web.
+- Valoriser le pilotage backlog/roadmap et les arbitrages impact vs effort.
+- Rendre visible la collaboration directe avec equipes tech et Product Manager.
+- Insister sur l'UX et les parcours utilisateurs comme levier de valeur.
+- Montrer la coordination inter-equipes (tech, customer success, partenaires).
+- Souligner l'animation Scrum et le suivi sprint a sprint.
+
+### Mots-cles ATS a reutiliser
+
+`Product Owner Web`, `Roadmap`, `Backlog`, `Priorisation`, `UX`, `Parcours utilisateur`, `Agile`, `Scrum`, `Sprint`, `Planning`, `Review`, `Retrospective`, `Product Manager`, `Customer Success`, `Coordination`, `Contexte international`.
+
+## 2026-03-21 - Chief Product & Technology Officer Pole Hospitality (Septeo)
+
+### Informations generales
+
+- **Intitule**: Chief Product & Technology Officer Pole Hospitality H/F
+- **Entreprise**: Le Groupe Septeo
+- **Localisation**: Montpellier (34)
+- **Type de poste**: CDI
+- **Niveau d'etudes**: Bac+3/Bac+4/Bac+5
+- **Experience indiquee**: 1 a 7 ans (annonce), mais poste de niveau direction/Codir
+- **Perimetre**: Product + Engineering (~150 collaborateurs), equipes distribuees France/Espagne
+- **Source**: HelloWork (copie utilisateur)
+
+### Resume de l'offre
+
+Poste CPTO strategique, membre du Codir et rattache au top management du pole Hospitality. Le role combine vision produit et technologique, transformation organisationnelle profonde, acceleration du time-to-market, gouvernance transnationale (France/Espagne), pilotage end-to-end du cycle produit et co-pilotage business (Sales/Marketing/Customer Success/Delivery), avec un levier fort sur l'IA.
+
+### Missions principales
+
+#### 1) Vision produit et technologique
+
+- Definir et incarner une vision consolidee pour l'ensemble des solutions du pole.
+- Rationaliser un portefeuille melant solutions core, addons internes et actifs issus d'acquisitions.
+- Definir roadmap globale, arbitrages strategiques et coherence transverse.
+- Exploiter les leviers d'innovation, notamment IA generative et IA appliquee.
+
+#### 2) Transformation Product & Engineering
+
+- Conduire la transition vers des micro-equipes autonomes (2-3 personnes) responsables de bout en bout.
+- Reduire drastiquement les delais de developpement (objectif annonce: de 6 mois a 10 jours sur certains sujets).
+- Generaliser les usages IA (pairbuilding/pairreview assistes, automatisation).
+- Standardiser pipelines et architectures modulaires, supprimer les frictions organisationnelles.
+
+#### 3) Gouvernance unifiee France - Espagne
+
+- Mettre en place une gouvernance claire, des rituels fiables et des KPIs partages.
+- Assurer la visibilite continue de l'avancement projets.
+- Renforcer la collaboration inter-sites, harmoniser les pratiques et reduire les doublons.
+- Arbitrer les priorites, dependances techniques, dette et migrations.
+
+#### 4) Supervision end-to-end du cycle de vie produit
+
+- Organiser la discovery (terrain, data, contraintes reglementaires secteur).
+- Prioriser selon retours clients, data d'usage, valeur business et contraintes techniques.
+- Co-construire avec Engineering pour garantir faisabilite, qualite et performance.
+- Orchestrer la fin de vie de certains produits et les migrations clients.
+- Mettre en place des KPIs produit/tech (adoption, scalabilite, disponibilite, time-to-market, dette technique, cout du changement).
+
+#### 5) Innovation et co-pilotage business
+
+- Identifier les opportunites de marche Hospitality en Europe et au-dela.
+- Porter des innovations disruptives (IA metier, automatisation, UX unifiee, integration multi-plateformes).
+- Co-piloter go-to-market et aligner produit, lancements, adoption et croissance avec Sales/Marketing.
+- Diffuser la vision produit en interne et en externe.
+
+### Profil recherche
+
+- Experience en editeur SaaS, transformation produit ou consolidation de plateformes.
+- Experience sur des roles de direction: CPO, CPTO, VP Product & Tech, Directeur Innovation/Plateforme.
+- Capacite a piloter des organisations pluridisciplinaires et geographiquement distribuees.
+- Leadership inspireant, capacite a aligner et faire grandir les equipes.
+- Maitrise architecture moderne (microservices, modularite, API-first, cloud native).
+- Experience en migration/modernisation d'applicatifs historiques.
+- Forte maitrise des usages IA appliques au delivery (code, test, pipelines, copilots metier).
+- Excellente communication transverse (Product, Tech, Sales, IA Lab, Direction).
+
+### Signaux importants pour adapter le CV
+
+- Mettre tres fortement en avant les experiences de direction produit + tech a grande echelle.
+- Valoriser les transformations organisationnelles mesurables (time-to-market, qualite, responsabilisation equipes).
+- Montrer des exemples concrets de pilotage de portefeuille hybride (legacy + nouveaux produits + acquisitions).
+- Insister sur gouvernance internationale et alignement multi-sites/multi-equipes.
+- Faire ressortir l'usage strategique et operationnel de l'IA dans le delivery.
+- Souligner les interactions business (go-to-market, adoption, product-market fit, croissance).
+
+### Mots-cles ATS a reutiliser
+
+`CPTO`, `Chief Product and Technology Officer`, `CPO`, `VP Product & Tech`, `Leadership`, `Product strategy`, `Technology strategy`, `Portfolio rationalization`, `Transformation organisationnelle`, `Time-to-market`, `IA generative`, `Automation`, `Microservices`, `API-first`, `Cloud native`, `Discovery`, `KPIs produit`, `Go-to-market`.
+
+## 2026-03-22 - Head of Product and Engineering (Septeo Digital & Service)
+
+### Informations generales
+
+- **Intitule**: Head Of Product And Engineering H/F
+- **Entreprise**: Le Groupe Septeo (filiale Septeo Digital & Service)
+- **Localisation**: Montpellier (34)
+- **Type de poste**: CDI
+- **Niveau d'etudes**: Bac+3/Bac+4/Bac+5
+- **Experience indiquee**: 1 a 7 ans (annonce), avec attentes de role direction
+- **Perimetre**: Equipe pluridisciplinaire d'environ 15 personnes (produit, dev, design, DevOps)
+- **Positionnement**: Membre du CODIR
+- **Source**: HelloWork (copie utilisateur)
+
+### Resume de l'offre
+
+Poste de direction Product & Engineering pour piloter la strategie produit et technologique de solutions web/digitales. Le role combine definition de vision, execution roadmap, management d'equipe pluridisciplinaire, gouvernance qualite/performance/securite, innovation IA/data/automatisation et alignement business avec la Direction Generale, les equipes commerciales et operationnelles.
+
+### Missions principales
+
+#### 1) Vision et alignement strategique
+
+- Definir et porter la vision produit et technologique alignee avec la strategie globale.
+- Collaborer avec la Direction Generale pour aligner roadmap produit/tech et objectifs business.
+- Assurer l'equilibre entre innovation, attentes clients et performance economique.
+
+#### 2) Leadership Product & Engineering
+
+- Encadrer et accompagner une equipe pluridisciplinaire (~15 personnes).
+- Structurer et developper la culture produit et technologique.
+- Federe les equipes autour d'objectifs ambitieux et d'une execution rigoureuse.
+
+#### 3) Delivery, qualite et gouvernance technique
+
+- Piloter la roadmap et garantir la livraison de fonctionnalites de qualite dans les delais.
+- Garantir scalabilite, securite et performance des plateformes digitales.
+- Mettre en place les bonnes pratiques de developpement, qualite et gouvernance.
+
+#### 4) Innovation et veille
+
+- Initier des projets autour de l'IA, la data et l'automatisation.
+- Maintenir une veille active sur les tendances web/digitales.
+- Identifier les leviers de differenciation et anticiper les evolutions de marche.
+
+### Profil recherche
+
+- Experience confirmee sur un role de direction type CPTO, Head of Engineering Product, Directeur Innovation ou equivalent.
+- Capacite a transformer une vision technologique en creation de valeur business.
+- Leadership reconnu pour mobiliser des equipes pluridisciplinaires.
+- Excellente communication et capacite d'influence aupres des pairs et instances dirigeantes.
+- Solide comprehension des technologies emergentes et de l'integration de l'IA dans des produits web.
+
+### Signaux importants pour adapter le CV
+
+- Mettre en avant les experiences de direction conjointe produit + engineering.
+- Valoriser les resultats lies a la delivery (qualite, delais, fiabilite, performance).
+- Montrer des exemples de structuration d'equipe et d'elevation des pratiques.
+- Insister sur la capacite a relier vision technologique, UX et impact business.
+- Faire ressortir les initiatives IA/data/automatisation et leurs effets concrets.
+- Souligner le role CODIR et l'alignement avec directions metier/commerciales.
+
+### Mots-cles ATS a reutiliser
+
+`Head of Product and Engineering`, `CPTO`, `Direction produit`, `Direction technologique`, `Roadmap`, `Leadership`, `CODIR`, `Scalabilite`, `Securite`, `Performance`, `Gouvernance`, `Innovation`, `IA`, `Data`, `Automatisation`, `Valeur business`.
+
+## Hors IT
+
+_A completer avec les prochaines offres non IT._
