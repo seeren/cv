@@ -2,7 +2,7 @@ import type { ComponentType } from "react";
 import Section from "../../components/Section";
 
 type CertificationsProps = {
-  data: {
+  certifications: {
     icon: ComponentType<{ className?: string }>;
     title: string;
     delivery: string;
@@ -11,11 +11,11 @@ type CertificationsProps = {
   }[];
 };
 
-function Certifications({ data }: CertificationsProps) {
+function Certifications({ certifications }: CertificationsProps) {
   return (
     <Section title="Certifications">
       <ul className="space-y-2.5 py-4">
-        {data.map((certification, index) => (
+        {certifications.map((certification, index) => (
           <li key={index} className="flex space-x-3">
             <certification.icon className="mt-0.5 h-4 w-4 shrink-0 text-blue-dark" />
             <div className="space-y-0.5 text-gray-700">

@@ -12,19 +12,19 @@ function Detailled() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
       <A4 multiple>
-        <Identity data={defaultData.identity} />
+        <Identity identity={defaultData.identity} />
         <main className="flex flex-1 py-6">
 
           <section className="flex flex-col">
-            <Profile data={defaultData.profile} />
+            <Profile profile={defaultData.profile} />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
-            <DetailedExperiences data={defaultData.experiences} />
+            <DetailedExperiences experiences={defaultData.experiences} />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
-            <Skills data={defaultData.skills} />
+            <Skills skills={defaultData.skills} />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
-            <Certifications data={defaultData.certifications} />
+            <Certifications certifications={defaultData.certifications} />
             <div className="border-b-2 border-blue-dark mt-4 mb-6" />
-            <Educations data={defaultData.educations} />
+            <Educations educations={defaultData.educations} />
           </section>
         </main>
       </A4>

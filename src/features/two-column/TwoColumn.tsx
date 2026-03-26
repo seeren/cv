@@ -13,17 +13,17 @@ function TwoColumn() {
   return (
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
       <A4>
-        <Identity data={defaultData.identity} />
+        <Identity identity={defaultData.identity} />
         <main className="flex flex-1 py-6">
           <section className="flex flex-col border-r-2 border-blue-dark w-2/5 pr-6">
-            <Achievements data={defaultData.achievements} />
-            <Skills data={defaultData.skills} />
-            <Certifications data={defaultData.certifications} />
+            <Achievements achievements={defaultData.achievements} />
+            <Skills skills={defaultData.skills} />
+            <Certifications certifications={defaultData.certifications} />
           </section>
           <section className="flex flex-col w-3/5 pl-6">
-            <Profile data={defaultData.profile} />
-            <Experiences data={defaultData.experiences} />
-            <Educations data={defaultData.educations} />
+            <Profile profile={defaultData.profile} />
+            <Experiences experiences={defaultData.experiences} />
+            <Educations educations={defaultData.educations} />
           </section>
         </main>
       </A4>

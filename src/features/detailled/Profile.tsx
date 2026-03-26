@@ -1,16 +1,16 @@
 import Section from "../../components/Section";
 
 type ProfileProps = {
-  data: string[];
+  profile: string[];
 };
 
-function Profile({ data }: ProfileProps) {
+function Profile({ profile }: ProfileProps) {
   return (
     <Section title="Profil">
       <div className="space-y-1.5 py-4 text-xs leading-relaxed text-gray-700">
-        {data.map((profile, index) => (
+        {profile.map((paragraph, index) => (
           <p key={index} className="text-justify hyphens-auto">
-            {profile}
+            {paragraph}
           </p>
         ))}
       </div>

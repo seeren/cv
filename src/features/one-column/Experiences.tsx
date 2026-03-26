@@ -2,7 +2,7 @@ import { Fragment } from "react/jsx-runtime";
 import Section from "../../components/Section";
 
 type ExperiencesProps = {
-  data: {
+  experiences: {
     title: string;
     company: string;
     period: string;
@@ -10,11 +10,11 @@ type ExperiencesProps = {
   }[];
 };
 
-function Experiences({ data }: ExperiencesProps) {
+function Experiences({ experiences }: ExperiencesProps) {
   return (
     <Section title="Expériences">
       <div className="space-y-3 py-4">
-        {data.map((experience, index) => (
+        {experiences.map((experience, index) => (
           <Fragment key={index}>
             <div className="flex-1 space-y-2 text-gray-800">
               <div className="flex items-baseline justify-between">

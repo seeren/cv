@@ -1,17 +1,17 @@
 import Section from "../../components/Section";
 
 type SkillsProps = {
-  data: {
+  skills: {
     title: string;
     description?: string;
   }[];
 };
 
-function Skills({ data }: SkillsProps) {
+function Skills({ skills }: SkillsProps) {
   return (
     <Section title="Compétences">
       <ul className="space-y-1.5 py-4">
-        {data.map((skill, index) => (
+        {skills.map((skill, index) => (
           <li key={index} className="flex text-gray-700 flex-col space-y-0.5">
             <span className="text-sm font-semibold hyphens-auto leading-tight text-gray-900">
               {skill.title}

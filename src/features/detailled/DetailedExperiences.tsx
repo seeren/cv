@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 import Section from "../../components/Section";
 
 type DetailedExperiencesProps = {
-  data: {
+  experiences: {
     title: string;
     company: string;
     period: string;
@@ -23,11 +23,11 @@ type DetailedExperiencesProps = {
   }[];
 };
 
-function DetailedExperiences({ data }: DetailedExperiencesProps) {
+function DetailedExperiences({ experiences }: DetailedExperiencesProps) {
   return (
     <Section title="Expériences">
       <div className="py-4 space-y-6">
-        {data.map((experience, index) => (
+        {experiences.map((experience, index) => (
           <Fragment key={index}>
             <div className="pt-4 first:pt-0 border-t border-gray-200 first:border-t-0 text-gray-800 space-y-3">
               <div className="flex items-start justify-between gap-4">

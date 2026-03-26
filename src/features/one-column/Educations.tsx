@@ -1,18 +1,18 @@
 import Section from "../../components/Section";
 
 type EducationsProps = {
-  data: {
+  educations: {
     title: string;
     school: string;
     period: string;
   }[];
 };
 
-function Eductions({ data }: EducationsProps) {
+function Eductions({ educations }: EducationsProps) {
   return (
     <Section title="Formations">
       <div className="space-y-2 py-4">
-        {data.map((education, index) => (
+        {educations.map((education, index) => (
           <div key={index} className="flex-1 space-y-0.5 text-gray-800">
             <div className="flex items-baseline justify-between">
               <div>
