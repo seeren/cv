@@ -12,12 +12,6 @@ function Cv() {
         </Link>
         <Link
           className="rounded bg-blue-dark px-4 py-2 text-white"
-          to="/cv/two-column"
-        >
-          Two Column
-        </Link>
-        <Link
-          className="rounded bg-blue-dark px-4 py-2 text-white"
           to="/cv/detailled"
         >
           Detailled

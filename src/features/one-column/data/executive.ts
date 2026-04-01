@@ -6,88 +6,91 @@ export const executiveData = {
   identity: {
     firstname: "cyril",
     lastname: "ichti",
-    post: "Directeur des Opérations et de la Performance Digitale",
+    post: "Head of Product & Engineering",
     phone: "06 58 66 55 14",
     mail: "cyril.ichti@gmail.com",
     linkedin: "fr.linkedin.com/in/cyril-ichti",
-    city: "Annecy",
+    address: "1 Impasse des Oeillets",
+    zip: "34300",
+    city: "Agde",
     country: "France",
   },
   profile: [
-    "Directeur des opérations digitales, je pilote un programme stratégique pour un client majeur (CA > 40 M€) avec une équipe de 13 personnes, en structurant les workflows et en maximisant la performance collective pour créer de la valeur business durable.",
+    "15+ ans en direction IT/Product: j’aligne stratégie, gouvernance delivery et roadmap sur des environnements digitaux complexes. Management direct de 13 collaborateurs et orchestration transverse d’un périmètre 100+, avec arbitrages budget pour accélérer le time-to-market et fiabiliser la performance.",
   ],
   achievements: [
     {
-      icon: Rocket,
-      title: "Opérations & Delivery",
+      icon: Settings,
+      title: "Transformation Product & Engineering",
       description:
-        "7 produits majeurs (e-commerce et backoffice) livrés en 18 mois par une équipe multi-disciplinaire, lancement réduit à 4 semaines grâce à l’approche MVP.",
+        "Transformation de l'organisation Product & Engineering - SAFe / Scrum, roadmap Portfolio / Solution - pour rendre le delivery prévisible et maintenir la production avec ~30% de capacité en moins.",
     },
     {
-      icon: Settings,
-      title: "Performance & Organisation",
+      icon: Rocket,
+      title: "Pilotage du portefeuille",
       description:
-        "Culture de responsabilité partagée instaurée sur 4 équipes, réduisant le turnover de 50% et augmentant la prévisibilité des livraisons.",
+        "Pilotage d'un portefeuille de 11 produits avec une cadence de livraison adaptative, en sécurisant plusieurs incréments par cycle selon la valeur business priorisée.",
     },
     {
       icon: Cpu,
-      title: "Transformation Digitale",
+      title: "Impact business",
       description:
-        "Refonte d’un produit obsolète en un produit modulable garantissant continuité et scalabilité des services.",
+        "Accélération de la performance commerciale via des leviers à impact direct - paiements, prévision des ventes - contribuant à +20% sur le trimestre.",
     },
     {
       icon: Users,
-      title: "Leadership & Cohésion",
+      title: "Résilience opérationnelle",
       description:
-        "Orchestration des équipes pour garantir 90% des engagements respectés, planification et staffing optimisés selon les priorités stratégiques.",
+        "Renforcement de la résilience des services en pilotant les incidents majeurs, la gouvernance SLA et les décisions go/no-go, avec rétablissement en moins d'une heure dans 90% des cas.",
     },
   ],
   experiences: [
     {
-      title: "Directeur de projet digital",
+      title: "Directeur de programme Product & Tech",
       company: "Web Expert Business",
+      location: "Annecy",
       period: "2022 – aujourd'hui",
+      intro:
+        "Direction de programme pour Miliboo sur la chaîne de valeur digitale, en gouvernance directe avec le CEO client pour aligner objectifs de croissance, capacité d'exécution et trajectoire produit/technologie.",
       achievements: [
-        "Pilotage d’un programme de 11 produits mobilisant plus de 100 collaborateurs.",
-        "Collaboration directe avec la direction financière client pour aligner budgets et priorités d’investissement.",
-        "Priorisation et arbitrages : rythme de livraison de 6 jalons/mois.",
-        "Optimisation des ressources et recrutement ciblé pour soutenir la roadmap.",
-        "Performance opérationnelle : rétablissement moyen <1h lors des incidents.",
+        "Pilotage de la trajectoire Product & Tech d’un portefeuille de 11 produits numériques, cœur d’un périmètre e-commerce de 40 M€ de CA.",
+        "Direction de programmes cross-fonctionnels (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
+        "Arbitrage des investissements entre refonte et production existante, avec décisions de périmètre orientées MVP pour sécuriser les engagements et accélérer la création de valeur.",
+        "Transformation de l'operating model via SAFe: clarification des responsabilités, standardisation de la gouvernance et structuration des mécanismes de décision.",
+        "Contribution à +20% de CA au Q1 2026 via la mise en place d'un outil de prévision des ventes, tout en sécurisant la continuité de service sur actifs critiques grâce à une gouvernance de crise.",
       ],
     },
     {
       title: "Fondateur / Dirigeant",
       company: "Seeren",
+      location: "Valence",
       period: "2011 – 2022",
+      intro:
+        "Création et direction de Seeren pendant 11 ans, avec pilotage de missions de transformation digitale, de delivery multi-clients et de lancements produits, en responsabilité complète business/ops.",
       achievements: [
-        "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en prestation de services",
-        "Responsable des planning, de la qualité, du delivery et des interactions clients.",
-        "Conception et livraison de solutions variées : apps mobiles, outils web, ebooks et mini-jeux.",
+        "Structuration et pilotage d’une activité de services numériques en multi-comptes, avec arbitrages continus entre croissance, qualité de delivery et capacité d’exécution.",
+        "Accompagnement de chefs de projet et PO sur les méthodes de travail et la gouvernance projet, avec amélioration de la prévisibilité des livraisons sur des dizaines de missions.",
+        "Développement de l’activité jusqu’à ~300K€ de CA annuel avec une équipe resserrée de 3 collaborateurs et coordination d’interventions multisites.",
+        "Conception et mise sur le marché de solutions digitales en logique MVP, 4 applications mobiles, 3 ebooks, time-to-market jusqu’à 3 mois.",
       ],
-    },
-    {
-      title: "Intégrateur web",
-      company: "L&G Conseil Informatique",
-      period: "2008 – 2011",
-      achievements: ["Réalisation de sites web et d’interfaces front-end pour 2 clients."],
-    },
+    }
   ],
   skills: [
     {
-      title: "Leadership & Management",
-      description: "Pilotage, coaching, recrutement, stratégie opérationnelle.",
+      title: "Leadership Product & Engineering",
+      description: "Gouvernance, org design, pilotage transverse, décisions structurantes",
     },
     {
-      title: "Architecture & Delivery",
-      description: "Conception et livraison de plateformes digitales multi-produits.",
+      title: "Stratégie & Exécution",
+      description: "Roadmap, arbitrages build/run, priorisation par la valeur, delivery",
     },
     {
-      title: "Méthodes",
-      description: "Agile, Scrum, SAFe, Kanban",
+      title: "Performance & Résilience",
+      description: "Continuité de service, gestion de crise, qualité d'exécution",
     },
     {
-      title: "Domaines",
-      description: "E-commerce, marketplaces, transformation digitale",
+      title: "Innovation & Data",
+      description: "IA appliquée, prévision, automatisation",
     },
   ],
   certifications: [

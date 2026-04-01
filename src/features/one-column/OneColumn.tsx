@@ -1,5 +1,4 @@
 import Identity from "./Identity";
-import Achievements from "./Achievements";
 import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Profile from "./Profile";
@@ -28,10 +27,9 @@ function OneColumn() {
     <div className="min-h-screen bg-gray-50 p-4 print:h-auto print:p-0 print:bg-white">
       <A4>
         <Identity identity={selectedData.identity} />
-        <main className="flex flex-1 py-6">
+        <main className="flex flex-1">
           <section className="flex w-full flex-col">
             <Profile profile={selectedData.profile} />
-            <Achievements achievements={selectedData.achievements} />
             <Experiences experiences={selectedData.experiences} />
             <Skills skills={selectedData.skills} />
             <Certifications certifications={selectedData.certifications} />

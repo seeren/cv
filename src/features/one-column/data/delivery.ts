@@ -10,7 +10,9 @@ export const deliveryData = {
     phone: "06 58 66 55 14",
     mail: "cyril.ichti@gmail.com",
     linkedin: "fr.linkedin.com/in/cyril-ichti",
-    city: "Annecy",
+    address: "1 Impasse des Oeillets",
+    zip: "34300",
+    city: "Agde",
     country: "France",
   },
   profile: [
@@ -46,6 +48,7 @@ export const deliveryData = {
     {
       title: "Directeur de projet digital",
       company: "Web Expert Business",
+      location: "Annecy",
       period: "2022 – aujourd'hui",
       achievements: [
         "Pilotage d’un programme de 11 produits mobilisant plus de 100 collaborateurs.",
@@ -58,6 +61,7 @@ export const deliveryData = {
     {
       title: "Fondateur / Dirigeant",
       company: "Seeren",
+      location: "Agde / Valence",
       period: "2011 – 2022",
       achievements: [
         "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en prestation de services",
@@ -68,6 +72,7 @@ export const deliveryData = {
     {
       title: "Intégrateur web",
       company: "L&G Conseil Informatique",
+      location: "Aix-en-Provence",
       period: "2008 – 2011",
       achievements: ["Réalisation de sites web et d’interfaces front-end pour 2 clients."],
     },
