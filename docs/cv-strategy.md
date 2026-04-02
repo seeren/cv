@@ -53,7 +53,7 @@ Ces annonces attendent :
 - Dataset : `executive.ts`
 - Titre recommandé : `Head of Product & Engineering`
 - Message : "je conçois l'organisation et les mécanismes de décision qui rendent l'exécution possible, fiable et performante"
-- Signal clé à rendre visible : programmes mobilisant `130+ collaborateurs`
+- Signal clé à rendre visible : programmes mobilisant `100+ collaborateurs`
 
 ## Typologie 3 - Product Owner / Product Delivery
 

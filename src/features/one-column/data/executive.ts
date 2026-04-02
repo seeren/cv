@@ -23,13 +23,13 @@ export const executiveData = {
       icon: Settings,
       title: "Transformation Product & Engineering",
       description:
-        "Transformation de l'organisation Product & Engineering - SAFe / Scrum, roadmap Portfolio / Solution - pour rendre le delivery prévisible et maintenir la production avec ~30% de capacité en moins.",
+        "Transformation de l’organisation Product & Engineering : clarification des rôles, gouvernance de portefeuille et pilotage des dépendances, pour rendre l’exécution prévisible et préserver la performance avec ~30% de capacité en moins.",
     },
     {
       icon: Rocket,
       title: "Pilotage du portefeuille",
       description:
-        "Pilotage d'un portefeuille de 11 produits avec une cadence de livraison adaptative, en sécurisant plusieurs incréments par cycle selon la valeur business priorisée.",
+        "Pilotage d’un portefeuille de 11 produits avec un rythme d’investissement adaptatif, en priorisant les jalons à plus forte valeur business.",
     },
     {
       icon: Cpu,
@@ -41,7 +41,7 @@ export const executiveData = {
       icon: Users,
       title: "Résilience opérationnelle",
       description:
-        "Renforcement de la résilience des services en pilotant les incidents majeurs, la gouvernance SLA et les décisions go/no-go, avec rétablissement en moins d'une heure dans 90% des cas.",
+        "Renforcement de la résilience des services : pilotage des incidents majeurs, exigences de niveau de service et décisions de lancement, avec rétablissement en moins d'une heure dans 90% des cas.",
     },
   ],
   experiences: [
@@ -55,9 +55,10 @@ export const executiveData = {
       achievements: [
         "Pilotage de la trajectoire Product & Tech d’un portefeuille de 11 produits numériques, cœur d’un périmètre e-commerce de 40 M€ de CA.",
         "Direction de programmes cross-fonctionnels (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
-        "Arbitrage des investissements entre refonte et production existante, avec décisions de périmètre orientées MVP pour sécuriser les engagements et accélérer la création de valeur.",
-        "Transformation de l'operating model via SAFe: clarification des responsabilités, standardisation de la gouvernance et structuration des mécanismes de décision.",
-        "Contribution à +20% de CA au Q1 2026 via la mise en place d'un outil de prévision des ventes, tout en sécurisant la continuité de service sur actifs critiques grâce à une gouvernance de crise.",
+        "Arbitrage des investissements entre refonte et production existante, avec décisions de périmètre orientées valeur et rapidité d’impact pour sécuriser les engagements et accélérer le retour sur investissement.",
+        "Transformation du modèle d’exploitation : clarification des responsabilités, gouvernance unifiée et mécanismes de décision structurés sur une trajectoire produit/technologie à l’échelle.",
+        "Contribution à +20% de CA au Q1 2026 via la mise en place d'un outil de prévision des ventes.",
+        "Sécurisation de la continuité de service sur actifs critiques : gouvernance de crise et remédiation structurée.",
       ],
     },
     {
@@ -66,12 +67,12 @@ export const executiveData = {
       location: "Valence",
       period: "2011 – 2022",
       intro:
-        "Création et direction de Seeren pendant 11 ans, avec pilotage de missions de transformation digitale, de delivery multi-clients et de lancements produits, en responsabilité complète business/ops.",
+        "Création et direction de Seeren pendant 11 ans, avec pilotage de missions de transformation digitale, d’un portefeuille multi-clients et de lancements produits, en responsabilité complète business/ops.",
       achievements: [
-        "Structuration et pilotage d’une activité de services numériques en multi-comptes, avec arbitrages continus entre croissance, qualité de delivery et capacité d’exécution.",
-        "Accompagnement de chefs de projet et PO sur les méthodes de travail et la gouvernance projet, avec amélioration de la prévisibilité des livraisons sur des dizaines de missions.",
+        "Structuration et pilotage d’une activité de services numériques en multi-comptes, avec arbitrages continus entre croissance, qualité d’exécution et capacité à tenir les engagements.",
+        "Missions de conseil en organisation : structuration du modèle opérationnel et de la gouvernance projet dans des contextes clients variés, pour sécuriser l’exécution et la visibilité sur les résultats.",
         "Développement de l’activité jusqu’à ~300K€ de CA annuel avec une équipe resserrée de 3 collaborateurs et coordination d’interventions multisites.",
-        "Conception et mise sur le marché de solutions digitales en logique MVP, 4 applications mobiles, 3 ebooks, time-to-market jusqu’à 3 mois.",
+        "Conception et mise sur le marché de solutions digitales par itérations courtes, 4 applications mobiles, 3 ebooks, délai de mise sur le marché jusqu’à 3 mois.",
       ],
     }
   ],
@@ -82,7 +83,7 @@ export const executiveData = {
     },
     {
       title: "Stratégie & Exécution",
-      description: "Roadmap, arbitrages build/run, priorisation par la valeur, delivery",
+      description: "Roadmap, arbitrages build/run, priorisation par la valeur, performance opérationnelle",
     },
     {
       title: "Performance & Résilience",
