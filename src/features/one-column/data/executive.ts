@@ -16,7 +16,7 @@ export const executiveData = {
     country: "France",
   },
   profile: [
-    "15+ ans en direction IT/Product: j’aligne stratégie, gouvernance delivery et roadmap sur des environnements digitaux complexes. Management direct de 13 collaborateurs et orchestration transverse d’un périmètre 100+, avec arbitrages budget pour accélérer le time-to-market et fiabiliser la performance.",
+    "Head of Product & Engineering avec 15+ ans d’expérience dans la structuration et le pilotage de plateformes digitales complexes. Je crée des organisations capables de délivrer rapidement et à l’échelle, en alignant stratégie business, produit et technologie. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+, avec responsabilité sur roadmap, arbitrages d’investissement et performance globale des produits."
   ],
   achievements: [
     {
@@ -46,34 +46,37 @@ export const executiveData = {
   ],
   experiences: [
     {
-      title: "Directeur de programme Product & Tech",
+      title: "Directeur Product & Tech",
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
-      intro:
-        "Direction de programme pour Miliboo sur la chaîne de valeur digitale, en gouvernance directe avec le CEO client pour aligner objectifs de croissance, capacité d'exécution et trajectoire produit/technologie.",
+      intro: "Head of Product & Engineering pour Miliboo, responsable de l’alignement stratégique et opérationnel entre produit, technologie et business, avec gouvernance directe auprès du CEO et coordination des équipes multi-fonctionnelles sur la chaîne de valeur digitale.",
       achievements: [
-        "Pilotage de la trajectoire Product & Tech d’un portefeuille de 11 produits numériques, cœur d’un périmètre e-commerce de 40 M€ de CA.",
-        "Direction de programmes cross-fonctionnels (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
-        "Arbitrage des investissements entre refonte et production existante, avec décisions de périmètre orientées valeur et rapidité d’impact pour sécuriser les engagements et accélérer le retour sur investissement.",
-        "Transformation du modèle d’exploitation : clarification des responsabilités, gouvernance unifiée et mécanismes de décision structurés sur une trajectoire produit/technologie à l’échelle.",
-        "Contribution à +20% de CA au Q1 2026 via la mise en place d'un outil de prévision des ventes.",
-        "Sécurisation de la continuité de service sur actifs critiques : gouvernance de crise et remédiation structurée.",
-      ],
+        "Pilotage d’un portefeuille de 11 produits numériques couvrant l’ensemble du parcours e-commerce, cœur d’un périmètre de 40 M€ de CA.",
+        "Direction d’équipes cross-fonctionnelles (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
+        "Arbitrage des investissements entre refonte et production existante, en priorisant la valeur business et la rapidité d’impact pour sécuriser les engagements.",
+        "Transformation du modèle d’exploitation : clarification des rôles, gouvernance unifiée et mécanismes de décision structurés pour améliorer la prévisibilité et l’efficacité de la delivery.",
+        "• Transformation globale de l’organisation Product & Engineering, améliorant la capacité de delivery, la résilience des plateformes et la contribution directe à la croissance.",
+        "Mise en place d’un outil de prévision des ventes contribuant à +20% de CA au Q1 2026.",
+        "Renforcement de la résilience des services critiques : gouvernance de crise, remédiation rapide et maintien de la continuité de service.",
+        "Transformation de l’adoption d’un CRM initialement rejeté : co-construction avec les équipes commerciales, intégration au cycle MVP, mise en place d’une transition progressive (ancien/nouveau système) et accompagnement terrain, aboutissant à une adoption complète et à l’alignement des usages métier.",
+        "Évolution de l’architecture vers un modèle distribué et scalable : introduction d’une logique event-driven (Kafka), définition des standards d’intégration (API, RPC) et découplage des services pour renforcer la résilience et soutenir la croissance",
+        "Mise en place d’un PIM enrichi par l’IA pour automatiser la production de contenus (traduction, éditorial, SEO), remplaçant des processus manuels et améliorant la scalabilité et la performance marketing.",
+        "Introduction d’une approche AI-first dans les pratiques engineering, augmentant la productivité des équipes et permettant une réduction d’environ 30% des effectifs à vélocité constante.",
+      ]
     },
     {
-      title: "Fondateur / Dirigeant",
+      title: "Founder & Product/Tech Leader",
       company: "Seeren",
       location: "Valence",
       period: "2011 – 2022",
-      intro:
-        "Création et direction de Seeren pendant 11 ans, avec pilotage de missions de transformation digitale, d’un portefeuille multi-clients et de lancements produits, en responsabilité complète business/ops.",
+      intro: "Création et direction d’une structure de transformation digitale et de lancement de produits numériques multi-clients, avec responsabilité business et opérationnelle complète.",
       achievements: [
-        "Structuration et pilotage d’une activité de services numériques en multi-comptes, avec arbitrages continus entre croissance, qualité d’exécution et capacité à tenir les engagements.",
-        "Missions de conseil en organisation : structuration du modèle opérationnel et de la gouvernance projet dans des contextes clients variés, pour sécuriser l’exécution et la visibilité sur les résultats.",
-        "Développement de l’activité jusqu’à ~300K€ de CA annuel avec une équipe resserrée de 3 collaborateurs et coordination d’interventions multisites.",
-        "Conception et mise sur le marché de solutions digitales par itérations courtes, 4 applications mobiles, 3 ebooks, délai de mise sur le marché jusqu’à 3 mois.",
-      ],
+        "Pilotage global : stratégie, organisation, delivery et innovation produit.",
+        "Structuration et management d’équipes, coordination multisites et multi-clients.",
+        "Conception et lancement de 4 applications mobiles et 3 ebooks avec cycles courts (MVP en ≤3 mois).",
+        "Développement de l’activité jusqu’à ~300K€ CA annuel, avec amélioration continue de la performance et de la satisfaction client.",
+      ]
     }
   ],
   skills: [
@@ -93,6 +96,10 @@ export const executiveData = {
       title: "Innovation & Data",
       description: "IA appliquée, prévision, automatisation",
     },
+    {
+      title: "Product Strategy & Lifecycle",
+      description: "Discovery, roadmap, priorisation, arbitrage build/run, adoption et impact business."
+    }
   ],
   certifications: [
     {
