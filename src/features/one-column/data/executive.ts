@@ -50,19 +50,19 @@ export const executiveData = {
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
-      intro: "Head of Product & Engineering pour Miliboo, responsable de l’alignement stratégique et opérationnel entre produit, technologie et business, avec gouvernance directe auprès du CEO et coordination des équipes multi-fonctionnelles sur la chaîne de valeur digitale.",
+      intro: "Head of Product & Engineering pour Miliboo, alignement stratégique et opérationnel produit/tech/business, gouvernance directe auprès du CEO",
       achievements: [
         "Pilotage d’un portefeuille de 11 produits numériques couvrant l’ensemble du parcours e-commerce, cœur d’un périmètre de 40 M€ de CA.",
         "Direction d’équipes cross-fonctionnelles (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
         "Arbitrage des investissements entre refonte et production existante, en priorisant la valeur business et la rapidité d’impact pour sécuriser les engagements.",
         "Transformation du modèle d’exploitation : clarification des rôles, gouvernance unifiée et mécanismes de décision structurés pour améliorer la prévisibilité et l’efficacité de la delivery.",
-        "• Transformation globale de l’organisation Product & Engineering, améliorant la capacité de delivery, la résilience des plateformes et la contribution directe à la croissance.",
+        "Transformation globale de l’organisation Product & Engineering, améliorant l'efficacité globale, la résilience des plateformes et la contribution directe à la croissance.",
         "Mise en place d’un outil de prévision des ventes contribuant à +20% de CA au Q1 2026.",
         "Renforcement de la résilience des services critiques : gouvernance de crise, remédiation rapide et maintien de la continuité de service.",
         "Transformation de l’adoption d’un CRM initialement rejeté : co-construction avec les équipes commerciales, intégration au cycle MVP, mise en place d’une transition progressive (ancien/nouveau système) et accompagnement terrain, aboutissant à une adoption complète et à l’alignement des usages métier.",
         "Évolution de l’architecture vers un modèle distribué et scalable : introduction d’une logique event-driven (Kafka), définition des standards d’intégration (API, RPC) et découplage des services pour renforcer la résilience et soutenir la croissance",
         "Mise en place d’un PIM enrichi par l’IA pour automatiser la production de contenus (traduction, éditorial, SEO), remplaçant des processus manuels et améliorant la scalabilité et la performance marketing.",
-        "Introduction d’une approche AI-first dans les pratiques engineering, augmentant la productivité des équipes et permettant une réduction d’environ 30% des effectifs à vélocité constante.",
+        "Introduction d’une approche AI-first dans les pratiques engineering, augmentant la productivité et la capacité d’exécution, avec une optimisation des ressources de 13 à 9 ETP à périmètre constant.",
       ]
     },
     {
@@ -70,35 +70,31 @@ export const executiveData = {
       company: "Seeren",
       location: "Valence",
       period: "2011 – 2022",
-      intro: "Création et direction d’une structure de transformation digitale et de lancement de produits numériques multi-clients, avec responsabilité business et opérationnelle complète.",
+      intro: "Création et direction d’une structure de transformation digitale et de lancement de produits numériques, avec responsabilité complète sur la stratégie, les opérations et la performance.",
       achievements: [
-        "Pilotage global : stratégie, organisation, delivery et innovation produit.",
-        "Structuration et management d’équipes, coordination multisites et multi-clients.",
-        "Conception et lancement de 4 applications mobiles et 3 ebooks avec cycles courts (MVP en ≤3 mois).",
-        "Développement de l’activité jusqu’à ~300K€ CA annuel, avec amélioration continue de la performance et de la satisfaction client.",
+        "Structuration d’organisations produit et tech dans des contextes clients variés : mise en place des rôles (PO, dev, lead), clarification des responsabilités et amélioration de la collaboration, augmentant la prévisibilité et la fluidité d’exécution.",
+        "Pilotage de portefeuilles multi-projets et multi-clients, avec coordination d’équipes pluridisciplinaires et gestion simultanée de produits internes et missions clients",
+        "Arbitrage produit et priorisation par la valeur : lancement de POC, sélection et arrêt d’initiatives non performantes pour concentrer les investissements sur les solutions à plus fort potentiel",
+        "Développement de l’activité jusqu’à ~300K€ de CA annuel, avec lancement de plusieurs produits digitaux (applications mobiles, contenus) en cycles courts (MVP ≤3 mois)",
       ]
     }
   ],
   skills: [
     {
-      title: "Leadership Product & Engineering",
-      description: "Gouvernance, org design, pilotage transverse, décisions structurantes",
+      "title": "Leadership & Résolution",
+      "description": "Prise de décision rapide sur les blocages, directives claires sur les priorités critiques, responsabilisation et coaching ciblé des équipes, maintien d’un haut niveau de performance"
     },
     {
-      title: "Stratégie & Exécution",
-      description: "Roadmap, arbitrages build/run, priorisation par la valeur, performance opérationnelle",
+      "title": "Transformation & Organisation",
+      "description": "Restructuration d’équipes et clarification des rôles (PO, leads, devs), gouvernance et processus structurants, mise en place de mécanismes décisionnels prévisibles et adoption des bonnes pratiques Agile"
     },
     {
-      title: "Performance & Résilience",
-      description: "Continuité de service, gestion de crise, qualité d'exécution",
+      "title": "Stratégie Produit & Business",
+      "description": "Arbitrage des initiatives par valeur business, pivot rapide des projets sous-performants, alignement produit/tech/business, livraison de résultats mesurables et impact commercial tangible"
     },
     {
-      title: "Innovation & Data",
-      description: "IA appliquée, prévision, automatisation",
-    },
-    {
-      title: "Product Strategy & Lifecycle",
-      description: "Discovery, roadmap, priorisation, arbitrage build/run, adoption et impact business."
+      "title": "Innovation, Scalabilité & Tech",
+      "description": "Introduction de pratiques AI-first et automatisation, mise en place d’architectures distribuées résilientes, amélioration de la productivité et réduction des frictions opérationnelles, pilotage de chantiers techniques majeurs"
     }
   ],
   certifications: [
