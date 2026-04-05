@@ -1,7 +1,7 @@
 type SkillsProps = {
   skills: {
     title: string;
-    description?: string;
+    items: string[];
   }[];
 };
 
@@ -15,11 +15,22 @@ function Skills({ skills }: SkillsProps) {
           </h2>
         </div>
         <div className="flex-1 border-b border-gray-300 pb-4">
-          <ul className="grid grid-cols-2 gap-x-6 gap-y-1.5">
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
             {skills.map((skill, index) => (
-              <li key={index} className="text-xs leading-snug text-gray-700">
-                <span className="font-semibold text-gray-900">{skill.title}</span>
-                {skill.description && <span className="text-gray-600">: {skill.description}</span>}
+              <li key={index} className="flex flex-col gap-1.5">
+                <span className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
+                  {skill.title}
+                </span>
+                <div className="flex flex-wrap gap-1">
+                  {skill.items.map((item, i) => (
+                    <span
+                      key={i}
+                      className="inline-flex max-w-full rounded border border-gray-200 bg-gray-50 px-1.5 py-0.5 text-xs leading-tight text-gray-700"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
               </li>
             ))}
           </ul>

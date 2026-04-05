@@ -81,37 +81,33 @@ export const executiveData = {
   ],
   skills: [
     {
-      title: "Gouvernance & arbitrage",
-      description:
-        "Instances et rituels de pilotage, arbitrages budgétaires et de portefeuille, cadrage des priorités avec le sponsor business et alignement des parties prenantes sur la performance.",
+      title: "Impact",
+      items: ["Priorisation business", "Arbitrage rapide", "Décision orientée résultat"],
     },
     {
-      title: "Organisation & modèle d’exploitation",
-      description:
-        "Org design, clarification des rôles et responsabilités, gouvernance de portefeuille et mécanismes de décision prévisibles, transformation des modes de travail à l’échelle.",
+      title: "Leadership",
+      items: ["Clarification rôles", "Responsabilisation", "Performance"],
     },
     {
-      title: "Stratégie produit & valeur",
-      description:
-        "Roadmap et priorisation par la valeur et le risque, alignement produit/tech/business, arbitrage des investissements et ajustement des trajectoires pour maximiser l’impact mesurable.",
+      title: "Innovation",
+      items: ["Experience", "Automatisation", "Data-driven", "AI-first"],
     },
     {
-      title: "Innovation, plateforme & résilience",
-      description:
-        "Vision technologique et leviers d’innovation (IA, automatisation), architectures scalables et résilientes, pilotage des grands chantiers et maîtrise des risques opérationnels.",
+      title: "Résilience",
+      items: ["Continuité opérationnelle", "Gestion de crise", "Maintien de la performance"],
     },
   ],
   certifications: [
     {
       icon: ScrumOrg,
-      title: "Professional Scrum Master 1 (PSM1)",
+      title: "Professional Scrum Master 1",
       delivery: "Scrum.org",
       date: "2018",
       id: "421856",
     },
     {
       icon: Zend,
-      title: "Zend Certified Engineer (ZCPE)",
+      title: "Zend Certified Engineer",
       delivery: "Zend",
       date: "2016",
       id: "ZEND028549",
@@ -121,12 +117,12 @@ export const executiveData = {
     {
       title: "Architecture",
       school: "École Nationale Supérieure d'Architecture de Marseille",
-      period: "2008-2011",
+      period: "2008 – 2011",
     },
     {
       title: "Design d'espace",
       school: "École Supérieure des Métiers Artistiques de Montpellier",
-      period: "2006-2008",
+      period: "2005 – 2008",
     },
   ],
 };

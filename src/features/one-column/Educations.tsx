@@ -15,19 +15,19 @@ function Eductions({ educations }: EducationsProps) {
             Formations
           </h2>
         </div>
-        <div className="flex-1 border-b border-gray-300 pb-4">
+        <div className="flex-1 pb-4">
           <div className="space-y-2">
             {educations.map((education, index) => (
-              <div key={index} className="text-gray-800">
+              <div key={index}>
                 <div className="flex items-baseline justify-between gap-3">
-                  <h3 className="text-sm font-semibold leading-tight text-gray-900">
+                  <h3 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
                     {education.title}
                   </h3>
                   <p className="whitespace-nowrap text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
                     {education.period}
                   </p>
                 </div>
-                <p className="mt-0.5 text-xs leading-snug text-gray-600">{education.school}</p>
+                <p className="mt-0.5 text-xs">{education.school}</p>
               </div>
             ))}
           </div>
