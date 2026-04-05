@@ -16,7 +16,7 @@ export const executiveData = {
     country: "France",
   },
   profile: [
-    "Head of Product & Engineering avec 15+ ans d’expérience dans la structuration et le pilotage de plateformes digitales complexes. Je crée des organisations capables de délivrer rapidement et à l’échelle, en alignant stratégie business, produit et technologie. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+, avec responsabilité sur roadmap, arbitrages d’investissement et performance globale des produits."
+    "Head of Product & Engineering avec 15+ ans d’expérience dans la structuration et le pilotage de plateformes digitales complexes. Je crée des organisations capables d’accélérer la création de valeur à l’échelle, en alignant stratégie business, produit et technologie. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+, avec responsabilité sur roadmap, arbitrages d’investissement et performance globale des produits."
   ],
   achievements: [
     {
@@ -55,7 +55,7 @@ export const executiveData = {
         "Pilotage d’un portefeuille de 11 produits numériques couvrant l’ensemble du parcours e-commerce, cœur d’un périmètre de 40 M€ de CA.",
         "Direction d’équipes cross-fonctionnelles (marketing, commerce, SAV, supply, qualité), avec alignement des interconnexions métiers et opérationnelles.",
         "Arbitrage des investissements entre refonte et production existante, en priorisant la valeur business et la rapidité d’impact pour sécuriser les engagements.",
-        "Transformation du modèle d’exploitation : clarification des rôles, gouvernance unifiée et mécanismes de décision structurés pour améliorer la prévisibilité et l’efficacité de la delivery.",
+        "Transformation du modèle d’exploitation : clarification des rôles, gouvernance unifiée et mécanismes de décision structurés pour renforcer la prévisibilité, le rendement et la maîtrise de l’exécution stratégique.",
         "Transformation globale de l’organisation Product & Engineering, améliorant l'efficacité globale, la résilience des plateformes et la contribution directe à la croissance.",
         "Mise en place d’un outil de prévision des ventes contribuant à +20% de CA au Q1 2026.",
         "Renforcement de la résilience des services critiques : gouvernance de crise, remédiation rapide et maintien de la continuité de service.",
@@ -81,21 +81,25 @@ export const executiveData = {
   ],
   skills: [
     {
-      "title": "Leadership & Résolution",
-      "description": "Prise de décision rapide sur les blocages, directives claires sur les priorités critiques, responsabilisation et coaching ciblé des équipes, maintien d’un haut niveau de performance"
+      title: "Gouvernance & arbitrage",
+      description:
+        "Instances et rituels de pilotage, arbitrages budgétaires et de portefeuille, cadrage des priorités avec le sponsor business et alignement des parties prenantes sur la performance.",
     },
     {
-      "title": "Transformation & Organisation",
-      "description": "Restructuration d’équipes et clarification des rôles (PO, leads, devs), gouvernance et processus structurants, mise en place de mécanismes décisionnels prévisibles et adoption des bonnes pratiques Agile"
+      title: "Organisation & modèle d’exploitation",
+      description:
+        "Org design, clarification des rôles et responsabilités, gouvernance de portefeuille et mécanismes de décision prévisibles, transformation des modes de travail à l’échelle.",
     },
     {
-      "title": "Stratégie Produit & Business",
-      "description": "Arbitrage des initiatives par valeur business, pivot rapide des projets sous-performants, alignement produit/tech/business, livraison de résultats mesurables et impact commercial tangible"
+      title: "Stratégie produit & valeur",
+      description:
+        "Roadmap et priorisation par la valeur et le risque, alignement produit/tech/business, arbitrage des investissements et ajustement des trajectoires pour maximiser l’impact mesurable.",
     },
     {
-      "title": "Innovation, Scalabilité & Tech",
-      "description": "Introduction de pratiques AI-first et automatisation, mise en place d’architectures distribuées résilientes, amélioration de la productivité et réduction des frictions opérationnelles, pilotage de chantiers techniques majeurs"
-    }
+      title: "Innovation, plateforme & résilience",
+      description:
+        "Vision technologique et leviers d’innovation (IA, automatisation), architectures scalables et résilientes, pilotage des grands chantiers et maîtrise des risques opérationnels.",
+    },
   ],
   certifications: [
     {
