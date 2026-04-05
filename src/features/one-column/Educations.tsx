@@ -27,7 +27,7 @@ function Eductions({ educations }: EducationsProps) {
                     {education.period}
                   </p>
                 </div>
-                <p className="mt-0.5 text-xs">{education.school}</p>
+                <p className="mt-0.5 text-xs leading-relaxed text-gray-700">{education.school}</p>
               </div>
             ))}
           </div>
