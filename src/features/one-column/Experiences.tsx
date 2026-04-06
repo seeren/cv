@@ -29,10 +29,7 @@ function Experiences({ experiences }: ExperiencesProps) {
                     {experience.title}
                   </h3>
                   <p className="mt-0.5 text-sm font-semibold uppercase leading-tight tracking-normal text-gray-700">
-                    {experience.company}
-                  </p>
-                  <p className="mt-0.5 text-sm font-semibold uppercase leading-tight tracking-normal text-gray-700">
-                    {experience.location}
+                    {experience.company} -  {experience.location}
                   </p>
                 </div>
                 <p className="whitespace-nowrap text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
