@@ -11,6 +11,7 @@ import { executiveData } from "./data/executive";
 import { deliveryData } from "./data/delivery";
 import { productData } from "./data/product";
 import { useCvProfileDataKey } from "../../hooks/useCvProfileDataKey";
+import { useCvDocumentMeta } from "../../hooks/useCvDocumentMeta";
 
 const dataByProfile = {
   default: defaultData,
@@ -21,6 +22,7 @@ const dataByProfile = {
 
 function OneColumn() {
   const profileDataKey = useCvProfileDataKey();
+  useCvDocumentMeta(profileDataKey);
   const selectedData = dataByProfile[profileDataKey];
 
   return (

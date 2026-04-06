@@ -1,4 +1,3 @@
-import { Cpu, Rocket, Settings, Users } from "lucide-react";
 import ScrumOrg from "../../../assets/psm1.svg?react";
 import Zend from "../../../assets/zcpe.svg?react";
 
@@ -24,14 +23,14 @@ export const executiveData = {
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
-      intro: "Pilotage stratégique et opérationnel des produits et de la technologie pour le e-commerce Miliboo, en lien direct avec le CEO et les responsables métiers.",
+      intro: "Direction stratégique et opérationnelle des produits et de la technologie pour l'e-commerce Miliboo, en lien direct avec le CEO et les responsables métiers.",
       achievements: [
-        "Pilotage et priorisation d’un portefeuille de 11 produits cœur d’un périmètre de 40 M€ de CA.",
-        "Alignement des interconnexions : marketing, commercial, produit, après-vente, supply, qualité.",
+        "Priorisation et pilotage d’un portefeuille de 11 produits cœur d’un périmètre de 40 M€ de CA.",
+        "Alignement des équipes : marketing, commercial, produit, après-vente, supply, qualité.",
         "Arbitrage refonte vs production : maintien du time-to-market et impact business.",
-        "Transformation du modèle d’exploitation avec jalons mensuels et pilotage par objectifs.",
-        "Mise en place d’un pilotage data-driven des produits, contribuant à +20 % de CA au Q1 2026.",
-        "Pilotage de l’adoption d’un CRM initialement rejeté : accompagnement terrain et adoption complète.",
+        "Transformation du modèle d’exploitation avec jalons mensuels et management par objectifs.",
+        "Décisions produit fondées sur la data, contribuant à +20 % de CA au Q1 2026.",
+        "Accompagnement de l’adoption d’un CRM initialement rejeté : suivi terrain jusqu'à adoption complète.",
         "Déploiement de pratiques AI-first et microservices pour faire progresser les produits.",
       ]
     },
@@ -40,10 +39,10 @@ export const executiveData = {
       company: "Seeren",
       location: "Valence",
       period: "2011 – 2022",
-      intro: "Création et direction d’une structure de lancement de produits numériques, pilotage de la stratégie, des opérations et des produits.",
+      intro: "Création et direction d’une structure de lancement de produits numériques, direction de la stratégie, des opérations et des produits.",
       achievements: [
-        "Pilotage de l’entreprise, management de 2 salariés et croissance jusqu’à ~300K€ de CA.",
-        "Pilotage simultané de portefeuilles multi-projets, multi-clients et produits internes.",
+        "Direction de la structure, management de 2 salariés et croissance jusqu’à ~300K€ de CA.",
+        "Gestion simultanée de portefeuilles multi-projets, multi-clients et produits internes.",
         "Arbitrage produit : lancement, sélection et arrêt d’initiatives pour concentrer les investissements.",
         "Accompagnement clients : déploiement Scrum/Agile en organisation produit & tech"
       ]
