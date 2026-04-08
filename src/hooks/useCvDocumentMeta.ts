@@ -17,10 +17,11 @@ function setMetaByProperty(property: string, content: string) {
  */
 export function useCvDocumentMeta(profile: CvProfileDataKey) {
   useEffect(() => {
-    const { title, description } = getCvDocumentMeta(profile);
+    const { title, description, keywords } = getCvDocumentMeta(profile);
     document.title = title;
     setMetaByName("title", title);
     setMetaByName("description", description);
+    setMetaByName("keywords", keywords);
     setMetaByProperty("og:title", title);
     setMetaByProperty("og:description", description);
     setMetaByName("twitter:title", title);

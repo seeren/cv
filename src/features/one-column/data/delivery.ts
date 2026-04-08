@@ -1,4 +1,3 @@
-import { Cpu, Rocket, Settings, Users } from "lucide-react";
 import ScrumOrg from "../../../assets/psm1.svg?react";
 import Zend from "../../../assets/zcpe.svg?react";
 
@@ -6,7 +5,7 @@ export const deliveryData = {
   identity: {
     firstname: "cyril",
     lastname: "ichti",
-    post: "Directeur des Opérations et de la Performance Digitale",
+    post: "Directeur de programme",
     phone: "06 58 66 55 14",
     mail: "cyril.ichti@gmail.com",
     linkedin: "fr.linkedin.com/in/cyril-ichti",
@@ -16,96 +15,69 @@ export const deliveryData = {
     country: "France",
   },
   profile: [
-    "Directeur des opérations digitales, je pilote un programme stratégique pour un client majeur (CA > 40 M€) avec une équipe de 13 personnes, en structurant les workflows et en maximisant la performance collective pour créer de la valeur business durable.",
-  ],
-  achievements: [
-    {
-      icon: Rocket,
-      title: "Opérations & Delivery",
-      description:
-        "7 produits majeurs (e-commerce et backoffice) livrés en 18 mois par une équipe multi-disciplinaire, lancement réduit à 4 semaines grâce à l’approche MVP.",
-    },
-    {
-      icon: Settings,
-      title: "Performance & Organisation",
-      description:
-        "Culture de responsabilité partagée instaurée sur 4 équipes, réduisant le turnover de 50% et augmentant la prévisibilité des livraisons.",
-    },
-    {
-      icon: Cpu,
-      title: "Transformation Digitale",
-      description:
-        "Refonte d’un produit obsolète en un produit modulable garantissant continuité et scalabilité des services.",
-    },
-    {
-      icon: Users,
-      title: "Leadership & Cohésion",
-      description:
-        "Orchestration des équipes pour garantir 90% des engagements respectés, planification et staffing optimisés selon les priorités stratégiques.",
-    },
+    "Je structure et fiabilise l’exécution de programmes : gouvernance de portefeuille, maîtrise des risques et des engagements, coordination transverse avec les métiers et la finance. Management direct de 13 collaborateurs et orchestration de périmètres 100+ côté client.",
   ],
   experiences: [
     {
-      title: "Directeur de projet digital",
+      title: "Directeur de programme",
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
+      intro:
+        "Programme Miliboo : conduite du delivery multi-produits ; alignement des équipes, de la finance client et des partenaires sur les priorités et les engagements.",
       achievements: [
-        "Pilotage d’un programme de 11 produits mobilisant plus de 100 collaborateurs.",
-        "Collaboration directe avec la direction financière client pour aligner budgets et priorités d’investissement.",
-        "Priorisation et arbitrages : rythme de livraison de 6 jalons/mois.",
-        "Optimisation des ressources et recrutement ciblé pour soutenir la roadmap.",
-        "Performance opérationnelle : rétablissement moyen <1h lors des incidents.",
+        "Conduite d’un portefeuille de 11 produits au cœur d’un périmètre e-commerce de ~40 M€ CA.",
+        "Alignement des budgets et des investissements avec la direction financière client.",
+        "Cadence de livraison par sprints, jalons et indicateurs pour stabiliser la prévisibilité et la visibilité.",
+        "Transformation des pratiques (SAFe, rituels de gouvernance) pour fiabiliser la chaîne de delivery.",
+        "Continuité de service sur actifs critiques : gestion d’incidents et SLA de 99,9%.",
+        "Animation des instances de pilotage client et renforcement de la relation de confiance.",
       ],
     },
     {
       title: "Fondateur / Dirigeant",
       company: "Seeren",
-      location: "Agde / Valence",
+      location: "Valence",
       period: "2011 – 2022",
+      intro:
+        "Création et direction d’une structure de services numériques : responsabilité complète des opérations, du delivery multi-clients et de la qualité de service.",
       achievements: [
-        "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en prestation de services",
-        "Responsable des planning, de la qualité, du delivery et des interactions clients.",
-        "Conception et livraison de solutions variées : apps mobiles, outils web, ebooks et mini-jeux.",
+        "Direction de la structure, management de salariés et développement jusqu’à ~300 K€ de CA annuel.",
+        "Portefeuilles multi-projets et multi-clients, avec priorisation et respect des engagements.",
+        "Responsabilité des plannings, de la qualité de delivery et des interactions clients sur nos missions.",
+        "Accompagnement d’organisations clientes : introduction d’Agile / Scrum pour structurer le delivery.",
       ],
-    },
-    {
-      title: "Intégrateur web",
-      company: "L&G Conseil Informatique",
-      location: "Aix-en-Provence",
-      period: "2008 – 2011",
-      achievements: ["Réalisation de sites web et d’interfaces front-end pour 2 clients."],
     },
   ],
   skills: [
     {
-      title: "Leadership & Management",
-      items: ["Pilotage", "coaching", "recrutement", "stratégie opérationnelle"],
+      title: "Programme",
+      items: ["Portefeuille projets", "Risques & jalons"],
     },
     {
-      title: "Architecture & Delivery",
-      items: ["Conception et livraison de plateformes digitales multi-produits"],
+      title: "Exécution",
+      items: ["Prévisibilité livraisons", "Continuité de service"],
+    },
+    {
+      title: "Transversalité",
+      items: ["Métiers & DSI", "Finance & priorisation"],
     },
     {
       title: "Méthodes",
-      items: ["Agile", "Scrum", "SAFe", "Kanban"],
-    },
-    {
-      title: "Domaines",
-      items: ["E-commerce", "marketplaces", "transformation digitale"],
+      items: ["Agile", "Scrum", "SAFe"],
     },
   ],
   certifications: [
     {
       icon: ScrumOrg,
-      title: "Professional Scrum Master 1 (PSM1)",
+      title: "Professional Scrum Master 1",
       delivery: "Scrum.org",
       date: "2018",
       id: "421856",
     },
     {
       icon: Zend,
-      title: "Zend Certified Engineer (ZCPE)",
+      title: "Zend Certified Engineer",
       delivery: "Zend",
       date: "2016",
       id: "ZEND028549",
@@ -120,7 +92,7 @@ export const deliveryData = {
     {
       title: "Design d'espace",
       school: "École Supérieure des Métiers Artistiques de Montpellier",
-      period: "2006 – 2008",
+      period: "2005 – 2008",
     },
   ],
 };
