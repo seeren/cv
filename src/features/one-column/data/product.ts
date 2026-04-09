@@ -1,4 +1,3 @@
-import { Cpu, Rocket, Settings, Users } from "lucide-react";
 import ScrumOrg from "../../../assets/psm1.svg?react";
 import Zend from "../../../assets/zcpe.svg?react";
 
@@ -6,7 +5,7 @@ export const productData = {
   identity: {
     firstname: "cyril",
     lastname: "ichti",
-    post: "Directeur des Opérations et de la Performance Digitale",
+    post: "Product Owner",
     phone: "06 58 66 55 14",
     mail: "cyril.ichti@gmail.com",
     linkedin: "fr.linkedin.com/in/cyril-ichti",
@@ -16,96 +15,69 @@ export const productData = {
     country: "France",
   },
   profile: [
-    "Directeur des opérations digitales, je pilote un programme stratégique pour un client majeur (CA > 40 M€) avec une équipe de 13 personnes, en structurant les workflows et en maximisant la performance collective pour créer de la valeur business durable.",
-  ],
-  achievements: [
-    {
-      icon: Rocket,
-      title: "Opérations & Delivery",
-      description:
-        "7 produits majeurs (e-commerce et backoffice) livrés en 18 mois par une équipe multi-disciplinaire, lancement réduit à 4 semaines grâce à l’approche MVP.",
-    },
-    {
-      icon: Settings,
-      title: "Performance & Organisation",
-      description:
-        "Culture de responsabilité partagée instaurée sur 4 équipes, réduisant le turnover de 50% et augmentant la prévisibilité des livraisons.",
-    },
-    {
-      icon: Cpu,
-      title: "Transformation Digitale",
-      description:
-        "Refonte d’un produit obsolète en un produit modulable garantissant continuité et scalabilité des services.",
-    },
-    {
-      icon: Users,
-      title: "Leadership & Cohésion",
-      description:
-        "Orchestration des équipes pour garantir 90% des engagements respectés, planification et staffing optimisés selon les priorités stratégiques.",
-    },
+    "J’aligne valeur produit, exécution et adoption : backlog, roadmap et priorisation ; lien entre besoins métiers, retours utilisateurs et équipes de développement sur un portefeuille multi-produits.",
   ],
   experiences: [
     {
-      title: "Directeur de projet digital",
+      title: "Directeur produit",
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
+      intro:
+        "Programme clients e-commerce Miliboo : roadmap business, jalons de livraison et mise en relation équipes métier & techniques.",
       achievements: [
-        "Pilotage d’un programme de 11 produits mobilisant plus de 100 collaborateurs.",
-        "Collaboration directe avec la direction financière client pour aligner budgets et priorités d’investissement.",
-        "Priorisation et arbitrages : rythme de livraison de 6 jalons/mois.",
-        "Optimisation des ressources et recrutement ciblé pour soutenir la roadmap.",
-        "Performance opérationnelle : rétablissement moyen <1h lors des incidents.",
+        "Mise en place d’un cycle de jalons réguliers ; time-to-delivery ramené à 4 semaines.",
+        "Analyse des besoins et conception fonctionnelle avec les métiers ; synchronisation des équipes.",
+        "Priorisation et arbitrages sur le portefeuille ; suivi des sprints et des engagements.",
+        "Rituels client renforçant visibilité ; contribution à l’adoption des solutions et à la qualité des livrables.",
+        "Coordination transverse ; anticipation des mises en production et accompagnement au changement.",
+        "Fiabilisation des parcours critiques et qualité de service sur les interfaces produit.",
       ],
     },
     {
-      title: "Fondateur / Dirigeant",
+      title: "Fondateur — consulting, services & produits numériques",
       company: "Seeren",
-      location: "Agde / Valence",
+      location: "Lyon / Valence",
       period: "2011 – 2022",
+      intro:
+        "Consulting méthodes & organisation et lancement de produits numériques : accompagnement client, amélioration continue et relation produit sur missions multi-projets.",
       achievements: [
-        "Polyvalence sur 10 ans : jusqu'à 3 salariés et ~300K CA/an en prestation de services",
-        "Responsable des planning, de la qualité, du delivery et des interactions clients.",
-        "Conception et livraison de solutions variées : apps mobiles, outils web, ebooks et mini-jeux.",
+        "Accompagnement de clients : agilité, prévisibilité, réduction des frictions métiers / delivery.",
+        "Priorisation et coordination sur des portefeuilles multi-clients.",
+        "Conception et mise en marché de solutions digitales :  MVP applications mobiles, ebooks.",
+        "Relation client de bout en bout : du cadrage du besoin à la livraison et au suivi des usages.",
       ],
-    },
-    {
-      title: "Intégrateur web",
-      company: "L&G Conseil Informatique",
-      location: "Aix-en-Provence",
-      period: "2008 – 2011",
-      achievements: ["Réalisation de sites web et d’interfaces front-end pour 2 clients."],
     },
   ],
   skills: [
     {
-      title: "Leadership & Management",
-      items: ["Pilotage", "coaching", "recrutement", "stratégie opérationnelle"],
+      title: "Produit",
+      items: ["Roadmap & jalons", "Priorisation & arbitrages"],
     },
     {
-      title: "Architecture & Delivery",
-      items: ["Conception et livraison de plateformes digitales multi-produits"],
+      title: "Discovery",
+      items: ["Besoins & conception", "Retours & adoption"],
     },
     {
-      title: "Méthodes",
-      items: ["Agile", "Scrum", "SAFe", "Kanban"],
+      title: "Agile",
+      items: ["Sprints & engagements", "Rituels & visibilité"],
     },
     {
-      title: "Domaines",
-      items: ["E-commerce", "marketplaces", "transformation digitale"],
+      title: "Transverse",
+      items: ["Acceptation du changement", "UX"],
     },
   ],
   certifications: [
     {
       icon: ScrumOrg,
-      title: "Professional Scrum Master 1 (PSM1)",
+      title: "Professional Scrum Master 1",
       delivery: "Scrum.org",
       date: "2018",
       id: "421856",
     },
     {
       icon: Zend,
-      title: "Zend Certified Engineer (ZCPE)",
+      title: "Zend Certified Engineer",
       delivery: "Zend",
       date: "2016",
       id: "ZEND028549",
@@ -120,7 +92,7 @@ export const productData = {
     {
       title: "Design d'espace",
       school: "École Supérieure des Métiers Artistiques de Montpellier",
-      period: "2006 – 2008",
+      period: "2005 – 2008",
     },
   ],
 };

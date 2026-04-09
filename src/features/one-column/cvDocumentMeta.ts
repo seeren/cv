@@ -18,11 +18,11 @@ export function getCvDocumentMeta(profile: CvProfileDataKey): {
       };
     case "product":
       return {
-        title: `${BASE_NAME} — CV | Direction des opérations & performance digitale`,
+        title: `${BASE_NAME} — CV | Product Owner`,
         description:
-          "CV de Cyril Ichti : orientation produit, roadmap et valeur business dans des environnements digitaux complexes. Programmes grands comptes, équipes pluridisciplinaires.",
+          "CV de Cyril Ichti : backlog, roadmap, priorisation, besoins métiers, retours utilisateurs, sprints. E-commerce, UX, Agile, Scrum, coordination transverse, mise en production.",
         keywords:
-          "Cyril Ichti, produit, roadmap, delivery, agile, e-commerce, transformation digitale",
+          "Cyril Ichti, Product Owner, backlog, roadmap, priorisation, user stories, discovery, Agile, Scrum, sprint, e-commerce, UX, mise en production, adoption, Agde",
       };
     case "executive":
       return {
