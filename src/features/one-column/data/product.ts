@@ -27,10 +27,10 @@ export const productData = {
         "Programme clients e-commerce Miliboo : roadmap business, jalons de livraison et mise en relation équipes métier & techniques.",
       achievements: [
         "Mise en place d’un cycle de jalons réguliers ; time-to-delivery ramené à 4 semaines.",
-        "Analyse des besoins et conception fonctionnelle avec les métiers ; synchronisation des équipes.",
         "Priorisation et arbitrages sur le portefeuille ; suivi des sprints et des engagements.",
-        "Rituels client renforçant visibilité ; contribution à l’adoption des solutions et à la qualité des livrables.",
+        "Analyse des besoins et conception fonctionnelle avec les métiers ; synchronisation des équipes.",
         "Coordination transverse ; anticipation des mises en production et accompagnement au changement.",
+        "Rituels client renforçant visibilité ; contribution à l’adoption des solutions et à la qualité des livrables.",
         "Fiabilisation des parcours critiques et qualité de service sur les interfaces produit.",
       ],
     },
@@ -42,10 +42,10 @@ export const productData = {
       intro:
         "Consulting méthodes & organisation et lancement de produits numériques : accompagnement client, amélioration continue et relation produit sur missions multi-projets.",
       achievements: [
-        "Accompagnement de clients : agilité, prévisibilité, réduction des frictions métiers / delivery.",
-        "Priorisation et coordination sur des portefeuilles multi-clients.",
-        "Conception et mise en marché de solutions digitales :  MVP applications mobiles, ebooks.",
         "Relation client de bout en bout : du cadrage du besoin à la livraison et au suivi des usages.",
+        "Priorisation et coordination sur des portefeuilles multi-clients.",
+        "Accompagnement de clients : agilité, prévisibilité, réduction des frictions métiers / delivery.",
+        "Conception et mise en marché de solutions digitales : MVP applications mobiles, ebooks.",
       ],
     },
   ],

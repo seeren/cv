@@ -15,7 +15,7 @@ export const executiveData = {
     country: "France",
   },
   profile: [
-    "J’aligne produit, technologie et business pour faire avancer les priorités et générer de l’impact. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+."
+    "J’aligne produit, technologie et business pour transformer la stratégie en exécution et générer de l’impact. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+."
   ],
   experiences: [
     {
@@ -25,13 +25,13 @@ export const executiveData = {
       period: "2022 – aujourd'hui",
       intro: "Direction stratégique et opérationnelle des produits et de la technologie pour l'e-commerce Miliboo, en lien direct avec le CEO et les responsables métiers.",
       achievements: [
+        "Mise en place d’indicateurs de pilotage produit (performance, usage) contribuant à +20 % de CA.",
         "Priorisation et pilotage d’un portefeuille de 11 produits cœur d’un périmètre de 40 M€ de CA.",
-        "Alignement des équipes : marketing, commercial, produit, après-vente, supply, qualité.",
+        "Refonte du modèle d’exploitation avec jalons mensuels pour accélérer le time-to-market.",
+        "Alignement de 100+ contributeurs (équipes métiers, produit, tech) autour des priorités produit.",
         "Arbitrage refonte vs production : maintien du time-to-market et impact business.",
-        "Transformation du modèle d’exploitation avec jalons mensuels et management par objectifs.",
-        "Décisions produit fondées sur la data, contribuant à +20 % de CA au Q1 2026.",
         "Accompagnement de l’adoption d’un CRM initialement rejeté : suivi terrain jusqu'à adoption complète.",
-        "Déploiement de pratiques AI-first et microservices pour faire progresser les produits.",
+        "Intégration de l’IA dans les outils pour automatiser la production de contenus et de code.",
       ]
     },
     {
@@ -44,7 +44,7 @@ export const executiveData = {
         "Direction de la structure, management de 2 salariés et croissance jusqu’à ~300K€ de CA.",
         "Gestion simultanée de portefeuilles multi-projets, multi-clients et produits internes.",
         "Arbitrage produit : lancement, sélection et arrêt d’initiatives pour concentrer les investissements.",
-        "Accompagnement clients : déploiement Scrum/Agile en organisation produit & tech"
+        "Accompagnement clients : déploiement Scrum/Agile en organisation produit & tech",
       ]
     }
   ],

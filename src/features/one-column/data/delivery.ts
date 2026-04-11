@@ -41,12 +41,12 @@ export const deliveryData = {
       period: "2011 – 2022",
       intro:
         "Création et direction d’une structure de services numériques : responsabilité complète des opérations, du delivery multi-clients et de la qualité de service.",
-      achievements: [
-        "Direction de la structure, management de salariés et développement jusqu’à ~300 K€ de CA annuel.",
-        "Portefeuilles multi-projets et multi-clients, avec priorisation et respect des engagements.",
-        "Responsabilité des plannings, de la qualité de delivery et des interactions clients sur nos missions.",
-        "Accompagnement d’organisations clientes : introduction d’Agile / Scrum pour structurer le delivery.",
-      ],
+        achievements: [
+          "Direction de la structure, management de salariés et développement jusqu’à ~300 K€ de CA annuel.",
+          "Portefeuilles multi-projets et multi-clients, avec priorisation et respect des engagements.",
+          "Responsabilité des plannings, de la qualité de delivery et des interactions clients sur nos missions.",
+          "Accompagnement d’organisations clientes : introduction d’Agile / Scrum pour structurer le delivery.",
+        ],
     },
   ],
   skills: [
