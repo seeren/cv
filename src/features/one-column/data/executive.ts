@@ -35,7 +35,7 @@ export const executiveData = {
       ]
     },
     {
-      title: "Founder & Product/Tech Leader",
+      title: "Fondateur — Produits & Services numériques",
       company: "Seeren",
       location: "Valence",
       period: "2011 – 2022",
