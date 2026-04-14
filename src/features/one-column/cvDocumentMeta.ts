@@ -34,11 +34,11 @@ export function getCvDocumentMeta(profile: CvProfileDataKey): {
       };
     default:
       return {
-        title: `${BASE_NAME} — CV | Head of Product & Engineering`,
+        title: `${BASE_NAME} — CV | Directeur de programme / Product & Delivery`,
         description:
-          "CV de Cyril Ichti : direction produit & engineering, stratégie digitale et gouvernance. Management d’équipes, périmètres transverses 100+, e-commerce et plateformes.",
+          "CV de Cyril Ichti : pilotage de programmes et produits, stratégie produit, delivery et transformation des organisations. Portefeuille multi-produits e-commerce (~40 M€ CA), périmètres 100+ contributeurs, KPI, Agile (Scrum, SAFe).",
         keywords:
-          "Cyril Ichti, Head of Product, Engineering, direction produit, stratégie digitale, gouvernance, e-commerce, leadership",
+          "Cyril Ichti, directeur de programme, Product, Delivery, stratégie produit, roadmap, KPI, portefeuille, Agile, Scrum, SAFe, transformation, e-commerce, conduite du changement, Agde",
       };
   }
 }
