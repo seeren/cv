@@ -15,23 +15,24 @@ export const executiveData = {
     country: "France",
   },
   profile: [
-    "J’aligne produit, technologie et business pour transformer la stratégie en exécution et générer de l’impact. Management direct de 13 collaborateurs et orchestration transverse de périmètres 100+."
+    "Je dirige une agence digitale de 10+ experts qui orchestre l’écosystème d’un acteur e-commerce à hauteur de 40 M€ de CA. De mes premières années d’entrepreneur à mon quotidien en direction 15 ans plus tard, je sécurise le business via le design du modèle d’exploitation adapté à l’activité et à son échelle."
   ],
   experiences: [
     {
-      title: "Directeur Product & Tech",
+      title: "Head of Product & Engineering",
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
-      intro: "Direction stratégique et opérationnelle des produits et de la technologie pour l'e-commerce Miliboo, en lien direct avec le CEO et les responsables métiers.",
+      intro: "Reprise en main et redressement de l'agence en contexte de crise majeure. Relance d'un appareil de production bloqué, mise en amortissement des investissements, restauration de la confiance client.",
       achievements: [
-        "Mise en place d’indicateurs de pilotage produit (performance, usage) contribuant à +20 % de CA.",
-        "Priorisation et pilotage d’un portefeuille de 11 produits cœur d’un périmètre de 40 M€ de CA.",
-        "Refonte du modèle d’exploitation avec jalons mensuels pour accélérer le time-to-market.",
-        "Alignement de 100+ contributeurs (équipes métiers, produit, tech) autour des priorités produit.",
-        "Arbitrage refonte vs production : maintien du time-to-market et impact business.",
-        "Accompagnement de l’adoption d’un CRM initialement rejeté : suivi terrain jusqu'à adoption complète.",
-        "Intégration de l’IA dans les outils pour automatiser la production de contenus et de code.",
+        "Prévision de vente AI qui a amélioré la prédictibilité du niveau de stock et contribué à +20% de CA.",
+        "Livraison de plusieurs applicatifs par an dans un delivery bloqué, l'activité est viabilisée.",
+        "Cadence via rituels de transparence : alignement et synchronisation de 100+ contributeurs.",
+        "Accompagnement au changement et suivi terrain jusqu'à adoption de produits initialement rejetés.",
+        "Rupture avec un prestataire historique par absence de résultat pour sécuriser le run : SLO 99.98%.",
+        "Renforcement de la qualité via une baisse de 30% de la capacité de production à périmètre constant.",
+        "Séparation des Capex/Opex : réduction de 15% des investissements pour le même volume de build.",
+        "Bascule vers un modèle AI-first avec cadrage des outils et des workflows, montée en compétences."
       ]
     },
     {

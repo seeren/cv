@@ -40,7 +40,7 @@ function Experiences({ experiences }: ExperiencesProps) {
                 <p className="mt-1 text-xs leading-relaxed text-gray-700">{experience.intro}</p>
               )}
               {experience.achievements.length > 0 && (
-                <ul className="mt-2 space-y-2 text-xs text-gray-700">
+                <ul className="mt-2 space-y-1 text-xs text-gray-700">
                   {experience.achievements.map((achievement, achievementIndex) => (
                     <li key={achievementIndex} className="flex gap-2.5">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-gray-800" />
