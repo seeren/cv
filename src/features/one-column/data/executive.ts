@@ -23,16 +23,14 @@ export const executiveData = {
       company: "Web Expert Business",
       location: "Annecy",
       period: "2022 – aujourd'hui",
-      intro: "Reprise en main et redressement de l'agence en contexte de crise majeure. Relance d'un appareil de production bloqué, mise en amortissement des investissements, restauration de la confiance client.",
+      intro: "Ascension rapide de contributeur à directeur pour redresser l'agence en contexte de crise. Relance de la production bloquée, mise en amortissement des investissements et restauration de la confiance.",
       achievements: [
-        "Prévision de vente AI qui a amélioré la prédictibilité du niveau de stock et contribué à +20% de CA.",
-        "Livraison de plusieurs applicatifs par an dans un delivery bloqué, l'activité est viabilisée.",
-        "Cadence via rituels de transparence : alignement et synchronisation de 100+ contributeurs.",
-        "Accompagnement au changement et suivi terrain jusqu'à adoption de produits initialement rejetés.",
-        "Rupture avec un prestataire historique par absence de résultat pour sécuriser le run : SLO 99.98%.",
-        "Renforcement de la qualité via une baisse de 30% de la capacité de production à périmètre constant.",
-        "Séparation des Capex/Opex : réduction de 15% des investissements pour le même volume de build.",
-        "Bascule vers un modèle AI-first avec cadrage des outils et des workflows, montée en compétences."
+        "Déploiement d'une IA de prévision des ventes améliorant les stocks et contribuant à +20% de CA.",
+        "Synchronisation et alignement de 75+ contributeurs via des rituels de transparence.",
+        "Accompagnement terrain et conduite du changement pour adopter des produits rejetés au départ.",
+        "Rupture de contrats prestataires infructueux pour sécuriser le run : atteinte d'un SLO à 99.98%.",
+        "Optimisation des Capex/Opex : réduction de 15% des investissements à volume de build constant.",
+        "Bascule vers un modèle AI-first avec cadrage des outils, des workflows et montée en compétences."
       ]
     },
     {
@@ -40,31 +38,31 @@ export const executiveData = {
       company: "Seeren",
       location: "Valence",
       period: "2011 – 2022",
-      intro: "Création et direction d’une structure de lancement de produits numériques, direction de la stratégie, des opérations et des produits.",
+      intro: "Création et direction d'une structure de services numériques et d'infrastructure. Gestion de la trésorerie, pivots de l'offre pour sécuriser le cash-flow et évolution vers du consulting.",
       achievements: [
-        "Direction de la structure, management de 2 salariés et croissance jusqu’à ~300K€ de CA.",
-        "Gestion simultanée de portefeuilles multi-projets, multi-clients et produits internes.",
-        "Arbitrage produit : lancement, sélection et arrêt d’initiatives pour concentrer les investissements.",
-        "Accompagnement clients : déploiement Scrum/Agile en organisation produit & tech",
+        "Gestion du cash et diversification de l'activité pour viabiliser puis pérenniser la structure.",
+        "Montée en compétences rapide sur des technologies complexes pour assurer des TJM élevés.",
+        "Missions de conseil technique et méthodologique, réalisation d'audits de sécurité.",
+        "Lancement et arbitrage de plusieurs produits propres (Web, iOS/Android, Ebooks) en Fast-Fail."
       ]
     }
   ],
   skills: [
     {
-      title: "Décision",
-      items: ["Priorisation valeur", "Arbitrage stratégique"],
+      title: "Stratégie",
+      items: ["Arbitrage budgétaire", "Priorisation valeur"],
     },
     {
       title: "Produit",
-      items: ["Pilotage portefeuille", "Vision produit"],
+      items: ["Pilotage portefeuille", "Gouvernance roadmap"],
     },
     {
       title: "Organisation",
-      items: ["Structuration rôles", "Alignement transverse"],
+      items: ["Design d'organisation", "Alignement transverse"],
     },
     {
       title: "Innovation",
-      items: ["AI-first", "Automatisation", "Data-driven"],
+      items: ["AI-first", "Data-driven", "Automatisation"],
     }
   ],
   certifications: [
