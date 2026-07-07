@@ -13,14 +13,14 @@ type ExperiencesProps = {
 
 function Experiences({ experiences }: ExperiencesProps) {
   return (
-    <section className="py-3">
+    <section className="py-4">
       <div className="flex items-start gap-5">
         <div className="w-[120px] shrink-0 text-right">
           <h2 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
             Expériences
           </h2>
         </div>
-        <div className="flex-1 space-y-5 border-b border-gray-300 pb-4">
+        <div className="flex-1 space-y-6 border-b border-gray-300 pb-5">
           {experiences.map((experience, index) => (
             <div className="space-y-3" key={index}>
               <div className="flex items-baseline justify-between">

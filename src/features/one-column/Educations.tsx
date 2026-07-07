@@ -8,7 +8,7 @@ type EducationsProps = {
 
 function Eductions({ educations }: EducationsProps) {
   return (
-    <section className="break-inside-avoid py-3">
+    <section className="break-inside-avoid py-4">
       <div className="flex items-start gap-5">
         <div className="w-[120px] shrink-0 text-right">
           <h2 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
@@ -16,21 +16,19 @@ function Eductions({ educations }: EducationsProps) {
           </h2>
         </div>
         <div className="flex-1 pb-4">
-          <div className="space-y-2">
+          <ul className="grid grid-cols-2 gap-x-6 gap-y-2">
             {educations.map((education, index) => (
-              <div key={index}>
-                <div className="flex items-baseline justify-between gap-3">
-                  <h3 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
-                    {education.title}
-                  </h3>
-                  <p className="whitespace-nowrap text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
-                    {education.period}
-                  </p>
-                </div>
-                <p className="mt-0.5 text-xs leading-relaxed text-gray-700">{education.school}</p>
-              </div>
+              <li key={index}>
+                <h3 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
+                  {education.title}
+                </h3>
+                <p className="mt-0.5 text-xs leading-relaxed text-gray-700">
+                  {education.school}{" "}
+                  <span className="text-gray-500">• {education.period}</span>
+                </p>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>
