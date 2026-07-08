@@ -12,14 +12,14 @@ type CertificationsProps = {
 
 function Certifications({ certifications }: CertificationsProps) {
   return (
-    <section className="break-inside-avoid py-3">
+    <section className="break-inside-avoid py-4">
       <div className="flex items-start gap-5">
         <div className="w-[120px] shrink-0 text-right">
           <h2 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
             Certifications
           </h2>
         </div>
-        <div className="flex-1 border-b border-gray-300 pb-4">
+        <div className="flex-1 border-b border-gray-300 pb-5">
           <ul className="grid grid-cols-2 gap-x-6 gap-y-2">
             {certifications.map((certification, index) => (
               <li key={index}>

@@ -11,7 +11,7 @@ function Profile({ profile }: ProfileProps) {
             À propos
           </h2>
         </div>
-        <div className="flex-1 pb-4 space-y-1.5 text-xs leading-relaxed text-gray-900 border-b border-gray-300 ">
+        <div className="flex-1 pb-5 space-y-1.5 text-xs leading-relaxed text-gray-900 border-b border-gray-300 ">
           {profile.map((paragraph, index) => (
             <p key={index} className="text-left hyphens-auto">
               {paragraph}

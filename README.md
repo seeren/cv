@@ -1,66 +1,23 @@
-# CV - Cyril
+# CV — Cyril Ichti
 
-Mon CV personnel développé avec React, TypeScript et Tailwind CSS. Le CV est optimisé pour l'impression au format A4.
+Mon CV personnel, version web optimisée pour l'impression.
 
-## 🚀 Comment l'exécuter
+Le CV principal est une **one-page** au format **A4** (210 × 297 mm). Le contenu se modifie dans des fichiers de données, sans toucher aux composants React.
 
-### Prérequis
-- Node.js (version 16 ou supérieure)
-- npm ou yarn
+## Installation
 
-### Installation et lancement
-
-1. Cloner le repository
-```bash
-git clone [URL_DU_REPO]
-cd cv
-```
-
-2. Installer les dépendances
 ```bash
 npm install
 ```
 
-3. Lancer le serveur de développement
+## Lancement
+
 ```bash
-npm run dev
+npm start
 ```
 
-4. Ouvrir votre navigateur sur `http://localhost:5173`
+Ouvrir [http://localhost:3001/cv](http://localhost:3001/cv)
 
-### Autres commandes disponibles
+## Impression
 
-- `npm run build` - Construire la version de production
-- `npm run preview` - Prévisualiser la version de production
-- `npm run start` - Alternative à `npm run dev`
-
-## 📄 Format A4
-
-Le CV est conçu spécifiquement pour le format A4 (210mm × 297mm) et optimisé pour l'impression. Utilisez la fonction d'impression de votre navigateur (Ctrl/Cmd + P) pour imprimer ou sauvegarder en PDF.
-
-## 🛠️ Technologies utilisées
-
-- **React 19** - Framework JavaScript
-- **TypeScript** - Typage statique
-- **Tailwind CSS** - Framework CSS
-- **Vite** - Outil de build et serveur de développement
-- **Lucide React** - Icônes
-
-## 📁 Structure du projet
-
-```
-src/
-├── components/         # Composants réutilisables
-│   ├── A4.tsx          # Composant wrapper pour le format A4
-│   ├── ButtonPrint.tsx # Bouton d'impression
-│   ├── Section.tsx     # Composant de section
-│   └── SectionHeading.tsx
-├── features/           # Sections du CV
-│   ├── achievements/   # Réalisations
-│   ├── certifications/ # Certifications
-│   ├── educations/     # Formation
-│   ├── experiences/    # Expériences professionnelles
-│   ├── identity/       # Informations personnelles
-│   ├── profile/        # Profil/À propos
-│   └── skills/         # Compétences
-```
+Utiliser l'impression du navigateur (`Cmd + P` / `Ctrl + P`) pour générer un PDF ou imprimer. Le bouton d'impression sur la page déclenche la même action.

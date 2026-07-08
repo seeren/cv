@@ -13,14 +13,14 @@ type ExperiencesProps = {
 
 function Experiences({ experiences }: ExperiencesProps) {
   return (
-    <section className="py-3">
+    <section className="py-4">
       <div className="flex items-start gap-5">
         <div className="w-[120px] shrink-0 text-right">
           <h2 className="text-sm font-bold uppercase leading-tight tracking-normal text-gray-900">
             Expériences
           </h2>
         </div>
-        <div className="flex-1 space-y-5 border-b border-gray-300 pb-4">
+        <div className="flex-1 space-y-6 border-b border-gray-300 pb-5">
           {experiences.map((experience, index) => (
             <div className="space-y-3" key={index}>
               <div className="flex items-baseline justify-between">
@@ -40,7 +40,7 @@ function Experiences({ experiences }: ExperiencesProps) {
                 <p className="mt-1 text-xs leading-relaxed text-gray-700">{experience.intro}</p>
               )}
               {experience.achievements.length > 0 && (
-                <ul className="mt-2 space-y-2 text-xs text-gray-700">
+                <ul className="mt-2 space-y-1 text-xs text-gray-700">
                   {experience.achievements.map((achievement, achievementIndex) => (
                     <li key={achievementIndex} className="flex gap-2.5">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-gray-800" />
