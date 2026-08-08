@@ -52,7 +52,7 @@ function DetailedExperiences({ experiences }: DetailedExperiencesProps) {
                     {experience.clients.map((client, i) => (
                       <span
                         key={i}
-                        className="text-[10px] px-2 py-0.5 rounded-full border border-blue-dark/20 text-blue-dark/80 bg-blue-50/30 print:bg-transparent"
+                        className="text-[10px] px-2 py-0.5 rounded-full border border-orange-dark/20 text-orange-dark/80 bg-orange-50/30 print:bg-transparent"
                       >
                         {client}
                       </span>
@@ -79,7 +79,7 @@ function DetailedExperiences({ experiences }: DetailedExperiencesProps) {
                             {mission.clients.map((client, i) => (
                               <span
                                 key={i}
-                                className="text-[9px] px-1.5 py-0.5 rounded-full border border-blue-dark/15 text-blue-dark/70 bg-blue-50/20 print:bg-transparent"
+                                className="text-[9px] px-1.5 py-0.5 rounded-full border border-orange-dark/15 text-orange-dark/70 bg-orange-50/20 print:bg-transparent"
                               >
                                 {client}
                               </span>

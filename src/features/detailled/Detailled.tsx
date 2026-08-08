@@ -17,13 +17,13 @@ function Detailled() {
 
           <section className="flex flex-col">
             <Profile profile={defaultData.profile} />
-            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <div className="border-b-2 border-orange-dark mt-4 mb-6" />
             <DetailedExperiences experiences={defaultData.experiences} />
-            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <div className="border-b-2 border-orange-dark mt-4 mb-6" />
             <Skills skills={defaultData.skills} />
-            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <div className="border-b-2 border-orange-dark mt-4 mb-6" />
             <Certifications certifications={defaultData.certifications} />
-            <div className="border-b-2 border-blue-dark mt-4 mb-6" />
+            <div className="border-b-2 border-orange-dark mt-4 mb-6" />
             <Educations educations={defaultData.educations} />
           </section>
         </main>

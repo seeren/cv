@@ -16,13 +16,13 @@ type IdentityProps = {
 function Identity({ identity }: IdentityProps) {
   return (
     <header className="flex flex-shrink-0 items-center">
-      <div className="flex h-full w-full items-center justify-between border-b-2 border-blue-dark py-6">
+      <div className="flex h-full w-full items-center justify-between border-b-2 border-orange-dark py-6">
         <div className="flex-1">
-          <h1 className="mb-1 text-3xl font-bold uppercase tracking-wide text-blue-dark">
+          <h1 className="mb-1 text-3xl font-bold uppercase tracking-wide text-orange-dark">
             {identity.firstname} {identity.lastname}
           </h1>
-          <p className="mb-2 text-xl font-medium text-blue-dark">{identity.post}</p>
-          <div className="flex space-x-2 text-xs text-blue-dark">
+          <p className="mb-2 text-xl font-medium text-orange-dark">{identity.post}</p>
+          <div className="flex space-x-2 text-xs text-orange-dark">
             <a
               className="hover:underline"
               href={`https://www.google.com/maps/place/${identity.city}`}
@@ -60,7 +60,7 @@ function Identity({ identity }: IdentityProps) {
             </a>
           </div>
         </div>
-        <div className="h-20 w-20 self-start overflow-hidden rounded-full border border-blue-dark">
+        <div className="h-20 w-20 self-start overflow-hidden rounded-full border border-orange-dark">
           <img
             src={profileImage}
             alt={`${identity.firstname} ${identity.lastname}`}

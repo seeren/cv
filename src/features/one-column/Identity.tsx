@@ -61,7 +61,7 @@ function Identity({ identity }: IdentityProps) {
           </a>
         </div>
 
-        <h1 className="py-2 text-2xl font-bold uppercase leading-none tracking-wide text-blue-dark">
+        <h1 className="py-2 text-2xl font-bold uppercase leading-none tracking-wide text-orange-dark">
           {identity.firstname} {identity.lastname}
         </h1>
         <p className="text-sm text-gray-900">{identity.post}</p>
