@@ -17,7 +17,7 @@ function Certifications({ certifications }: CertificationsProps) {
       <ul className="space-y-2.5 py-4">
         {certifications.map((certification, index) => (
           <li key={index} className="flex space-x-3">
-            <certification.icon className="mt-0.5 h-4 w-4 shrink-0 text-blue-dark" />
+            <certification.icon className="mt-0.5 h-4 w-4 shrink-0 text-orange-dark" />
             <div className="space-y-0.5 text-gray-700">
               <h3 className="text-sm font-semibold leading-tight text-gray-900 hyphens-auto">
                 {certification.title}
