@@ -1,6 +1,6 @@
 function SectionHeading({ title }: { title: string }) {
     return (
-        <h2 className="text-lg font-semibold text-orange-dark uppercase tracking-wide ">
+        <h2 className="text-lg font-semibold text-red-dark uppercase tracking-wide ">
             {title}
         </h2>
     );
