@@ -42,7 +42,7 @@ function DetailedExperiences({ experiences }: DetailedExperiencesProps) {
                 <div className="shrink-0 text-[11px] text-gray-600 italic text-right">
                   <span className="whitespace-nowrap">{experience.location}</span>
                   <span className="mx-2 text-gray-400">•</span>
-                  <span className="whitespace-nowrap">{experience.period}</span>
+                  <span className="whitespace-nowrap">{experience.period}</span
                 </div>
               </div>
 

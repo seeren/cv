@@ -21,7 +21,7 @@ function Identity({ identity }: IdentityProps) {
           <h1 className="mb-1 text-3xl font-bold uppercase tracking-wide text-orange-dark">
             {identity.firstname} {identity.lastname}
           </h1>
-          <p className="mb-2 text-xl font-medium text-orange-dark">{identity.post}</p>
+          <p className="mb-2 text-xl font-medium text-blue-dark">{identity.post}</p>
           <div className="flex space-x-2 text-xs text-orange-dark">
             <a
               className="hover:underline"
